@@ -10,39 +10,66 @@
 \setlength{\pdfpageheight}{11in}
 \pdfinfo{
 /Title (Nasty, Brutish, and Short: 
-A Large-Scale Study of How Election News is Shared on Twitter)
+What Makes Election News Popular on Twitter?)
 /Author (Anonymous)}
 \setcounter{secnumdepth}{0}  
  \begin{document}
 % The file aaai.sty is the style file for AAAI Press 
 % proceedings, working notes, and technical reports.
 %
-\title{2017 Formatting Instructions \\for Authors Using \LaTeX{}}
-\author{AAAI Press\\
-Association for the Advancement of Artificial Intelligence\\
-2275 East Bayshore Road, Suite 160\\
-Palo Alto, California 94303\\
+\title{Nasty, Brutish, and Short: 
+What Makes Election News Popular on Twitter?}
+\author{Anonymous\\
+%Association for the Advancement of Artificial Intelligence\\
+%2275 East Bayshore Road, Suite 160\\
+%Palo Alto, California 94303\\
 }
 \maketitle
 \begin{abstract}
 AAAI creates proceedings, working notes, and technical reports directly from electronic source furnished by the authors. To ensure that all papers in the publication have a uniform appearance, authors must adhere to the following instructions. 
 \end{abstract}
 
-\noindent Congratulations on having a paper selected for inclusion in an AAAI Press proceedings or technical report! This document details the requirements necessary to get your accepted paper published using \LaTeX{}. If you are using Microsoft Word, instructions are provided in a different document. If you want to use some other formatting software, you must obtain permission from AAAI Press first. 
+ 
+\section{Introduction}
 
-The instructions herein are provided as a general guide for experienced \LaTeX{} users who would like to use that software to format their paper for an AAAI Press publication or report. If you are not an experienced \LaTeX{} user, do not use it to format your paper. AAAI cannot provide you with support and the accompanying style files are \textbf{not} guaranteed to work. If the results you obtain are not in accordance with the specifications you received, you must correct your source file to achieve the correct result. 
+%In the current digital age, broadcasting a link to friends and peers often emerges as the next logical step to reading and reacting to the news. The social network Twitter, in particular, is a popular platform for disseminating news stories. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}.
 
-These instructions are generic. Consequently, they do not include specific dates, page charges, and so forth. Please consult your specific written conference instructions for details regarding your submission. Please review the entire document for specific instructions that might apply to your particular situation. All authors must comply with the following:
+%Sharing news stories requires a level of activation on the part of the reader beyond passive readership; often, this trigger is emotional in nature. In 2011 study of the New York Time’s “most emailed list”, Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as “an excitatory state of sensory alertness, mobilization, or energy” [Milkman 7]. 
 
-\begin{itemize}
-\item You must use the latest AAAI Press \LaTeX{} style file.
-\item Download the author kit.
-\item Complete, sign, and return by the deadline the AAAI copyright form (proceedings authors) or distribution license (technical report authors).
-\item Read and format your paper source and PDF according to the formatting instructions for authors.
-\item Submit your electronic files and abstract using our electronic submission form \textbf{on time.}
-\item Submit your copyright form, and any required page or formatting charges to AAAI Press so that they are received by the deadline.
-\item Check every page of your paper before submitting it.
+%Motivated by this study, we examine the relationship between textual features of political news and their corresponding popularity on Twitter. As a follow-up, we divide users on Twitter by levels of political engagement, proxied by the number of political candidates followed, to look for de
+
+%Motivated by this study, we examine three key traits of political news content and their effects on Twitter popularity. 
+ 
+In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news, and the 2016 election cycle highlighted the power of social media on the election process \cite{pew-Twitter-news}. The New York Times estimated a 2 billion-dollar advantage in free media for Donald Trump on platforms from television to Twitter, all of which has had no small impact on the messages broadcast to voters \cite{nyt-trump-free-media}.  
+
+The popularity of sharing articles on social media shifts the role of the news consumer from armchair reader to information propagator. Sharing a story requires a level of interest and activation on the part of the reader beyond passive readership; yet often, this trigger is predictably emotional in nature. In a 2011 study of the New York Times' ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy [Milkman 7].''
+
+\subsection{The (Short) Attention Economy}
+At the same time that social media has the power to create a flood of free advertising and media for political candidates, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox-- between the ease of accessibility to information and the increasingly limited bandwidth of consumers-- is described as one of the challenges of being in an \emph{attention economy} \cite{goldhaber1997attention}. Moreover, high-impact events like the presidential elections especially intensifies this effect-- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 \cite{election-fatigue}. To explore the effects of the attention economy on the reading of political news, we examine \textbf{story length} and how it relates to sharing popularity in the analysis to follow.
+
+
+\subsection{Negativity in Politics and the Internet}
+In addition, the option of anonymity and pseudo-anonymity on a social network like Twitter (along with other traits of Internet communication), is theorized to contribute to increased negative and hostile behavior, potentially increasing tension for the already-fraught subject of politics. This phenomenon, is coined as the \emph{online disinhibition effect} \cite{suler2004online}. 
+
+In Berger and Milkman’s study of story virality, it was found that \emph{positive} content was more likely to be shared than negative content-- against conventional belief \cite{berger2012makes}. Political news, however, is a unique category of news, and this election in particular-- where one-in-four Americans report disliking the presidential candidates-- appears to have a negative overtone.
+
+To compare the sharing of election news stories versus patterns of general virality in the news, and to examine the extent in which negative sentiment is popular, we calculate the \emph{negativity} of stories, and how that relates to Twitter behavior.
+
+We also examine the effects of the degree of combined emotionality in the content and how that relates to Twitter shares, to see if either more positive or more negative content is more likely to be shared overall than content that ranks low in emotionality. Although positive content was found to be more popular than negative content in the sharing of stories, both highly positive and highly negative content was more likely to become viral, and we expect the same to hold for political news \cite{berger2012makes}. 
+
+\subsection{Hypotheses}
+
+ We focus on three key aspects: length, emotionality, and positivity of political news content. We hypothesize the following behavior in our dataset of stories and tweets:
+
+\begin{itemize} 
+    \item \textbf{H1:} Story length has a \emph{negative} correlation with Twitter shares, due to the effects of the Internet attention economy and overexposure to political media \cite{goldhaber1997attention}.
+    \item \textbf{H2:} Emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
+    \item \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}
+
 \end{itemize}
+
+For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement), to look for differences amongst different populations of political tweeters.
+
 
 \section{Copyright}
 All papers submitted for publication by AAAI Press must be accompanied by a valid signed copyright form or, in the case of technical reports, by a valid signed permission to distribute form. There are no exceptions to this requirement. You must send us the original version of this form. However, to meet the deadline, you may fax (1-650-321-4457) or scan and e-mail the form (pubforms17@aaai.org) to AAAI by the submission deadline, and then mail the original via postal mail to the AAAI office. \textbf{If you fail to send in a signed copyright or permission form, your paper will not be published.} You will find PDF versions of the AAAI copyright and permission to distribute forms in the author kit.
