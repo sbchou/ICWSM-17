@@ -1,0 +1,38 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bartherl \bgroup et al\mbox.\egroup
+  }{2015}]{pew-Twitter-news}
+Bartherl, M.; Shearer, E.; Gottfried, J.; and Mitchell, A.
+\newblock 2015.
+\newblock How do americans use twitter for news?
+\newblock Retrieved from \url{http://www.pewresearch.org}.
+\newblock (Accessed on 07/12/2016).
+
+\bibitem[\protect\citeauthoryear{Berger and Milkman}{2012}]{berger2012makes}
+Berger, J., and Milkman, K.~L.
+\newblock 2012.
+\newblock What makes online content viral?
+\newblock {\em Journal of marketing research} 49(2):192--205.
+
+\bibitem[\protect\citeauthoryear{Goldhaber}{1997}]{goldhaber1997attention}
+Goldhaber, M.~H.
+\newblock 1997.
+\newblock The attention economy and the net.
+\newblock {\em First Monday} 2(4).
+
+\bibitem[\protect\citeauthoryear{Gottfried}{2016}]{election-fatigue}
+Gottfried, J.
+\newblock 2016.
+\newblock Most americans already feel election coverage fatigue.
+\newblock Retrieved from \url{http://www.pewresearch.org}.
+\newblock (Accessed on 07/16/2016).
+
+\bibitem[\protect\citeauthoryear{Suler}{2004}]{suler2004online}
+Suler, J.
+\newblock 2004.
+\newblock The online disinhibition effect.
+\newblock {\em Cyberpsychology \& behavior} 7(3):321--326.
+
+\end{thebibliography}
