@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2016 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2016 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,9 +241,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/local/texlive/2015/texmf-dist/tex/latex/breakcites/breakcites.sty)
 (./nasty-brutish-short.aux
 
-LaTeX Warning: Label `fig:data-stack' multiply defined.
-
-
 LaTeX Warning: Label `fig:tweets-by-pub' multiply defined.
 
 )
@@ -356,88 +353,58 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Warning: Citation `PoliticalPolarization' on page 2 undefined on input li
 ne 127.
 
-<images/election-news-pipeline.png, id=91, 1104.125pt x 729.72626pt>
-File: images/election-news-pipeline.png Graphic file (type png)
 
-<use images/election-news-pipeline.png>
-Package pdftex.def Info: images/election-news-pipeline.png used on input line 1
-46.
-(pdftex.def)             Requested size: 239.39438pt x 158.21312pt.
- [2 <./images/election-news-pipeline.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 160.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 160.
+LaTeX Warning: Citation `ICWSMPAPERFROMLAST YEAR' on page 2 undefined on input 
+line 138.
 
 
-LaTeX Warning: Citation `vijayaraghavan2016automatic' on page 3 undefined on in
-put line 173.
+LaTeX Warning: Citation `vijayaraghavan2016automatic' on page 2 undefined on in
+put line 148.
 
-<images/Twitter-pipeline.png, id=105, 1104.125pt x 729.72626pt>
-File: images/Twitter-pipeline.png Graphic file (type png)
 
-<use images/Twitter-pipeline.png>
-Package pdftex.def Info: images/Twitter-pipeline.png used on input line 178.
-(pdftex.def)             Requested size: 239.39438pt x 158.21312pt.
+LaTeX Warning: Citation `tange2011gnu' on page 2 undefined on input line 155.
 
-<images/data-stack.png, id=106, 1104.125pt x 729.72626pt>
-File: images/data-stack.png Graphic file (type png)
-
-<use images/data-stack.png>
-Package pdftex.def Info: images/data-stack.png used on input line 201.
-(pdftex.def)             Requested size: 239.39438pt x 158.21312pt.
-
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.204 \end{figure}
-                  
-? 
-
-LaTeX Warning: Citation `tange2011gnu' on page 3 undefined on input line 213.
-
-<images/story-share-dist.png, id=107, 750.805pt x 515.9275pt>
+[2] <images/story-share-dist.png, id=75, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
-Package pdftex.def Info: images/story-share-dist.png used on input line 231.
+Package pdftex.def Info: images/story-share-dist.png used on input line 169.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
- [3 <./images/Twitter-pipeline.png> <./images/data-stack.png> <./images/story-s
-hare-dist.png>]
-<images/all-stories-by-pub.png, id=119, 750.805pt x 515.9275pt>
+
+<images/all-stories-by-pub.png, id=77, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
-Package pdftex.def Info: images/all-stories-by-pub.png used on input line 246.
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 183.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-Overfull \hbox (101.39268pt too wide) in paragraph at lines 259--278
+Overfull \hbox (101.39268pt too wide) in paragraph at lines 196--215
 [][] 
  []
 
-<images/candidate-mentions.png, id=120, 750.805pt x 515.9275pt>
+<images/candidate-mentions.png, id=78, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
-Package pdftex.def Info: images/candidate-mentions.png used on input line 283.
+Package pdftex.def Info: images/candidate-mentions.png used on input line 220.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
  (./nasty-brutish-short.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [4 <./images/all-stories-by-pub.png> <./images/candidate-mentions.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
- [5
+) [3 <./images/story-share-dist.png> <./images/all-stories-by-pub.png> <./image
+s/candidate-mentions.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
+ [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
-
-(./nasty-brutish-short.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+ (./nasty-brutish-short.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
 Package rerunfilecheck Info: File `nasty-brutish-short.out' has not changed.
-(rerunfilecheck)             Checksum: 1B7D197232EE3751FAB80D024651C9E8;994.
+(rerunfilecheck)             Checksum: 08DAEC49D718CB8AE7CF11837808A086;610.
 
 
 LaTeX Warning: There were undefined references.
@@ -445,14 +412,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
  ) 
 Here is how much of TeX's memory you used:
- 5475 strings out of 493089
- 82462 string characters out of 6134842
- 172696 words of memory out of 5000000
- 8859 multiletter control sequences out of 15000+600000
- 22027 words of font info for 43 fonts, out of 8000000 for 9000
+ 5426 strings out of 493089
+ 81663 string characters out of 6134842
+ 174615 words of memory out of 5000000
+ 8831 multiletter control sequences out of 15000+600000
+ 17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,10n,28p,931b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -462,10 +429,10 @@ ive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on nasty-brutish-short.pdf (5 pages, 263687 bytes).
+Output written on nasty-brutish-short.pdf (4 pages, 183079 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -92,14 +92,14 @@ To compare the sharing of election news stories versus patterns of general viral
 We also examine the effects of the degree of combined emotionality in the content and how that relates to Twitter shares, to see if either more positive or more negative content is more likely to be shared overall than content that ranks low in emotionality. Although positive content was found to be more popular than negative content in the sharing of stories, both highly positive and highly negative content was more likely to become viral, and we expect the same to hold for political news \cite{berger2012makes}. 
  
 \section{Data Collection}
- Our main dataset is a connected corpus of news articles about the presidential elections and the tweets that share them from January 1, 2016 to May 1, 2016 over 13 news outlets. In this chapter, we detail the collection and creation of our dataset, along with the unique challenges of working with ``big data''.
+ Our main dataset is a connected corpus of news articles about the presidential elections and the tweets that share them from January 1, 2016 to May 1, 2016 over 13 news outlets.  
 
-\subsection{The Electome Project}
-The backbone of our data collection and classification process lies under the umbrella of the Electome project, a large, collaborative effort with the Laboratory for Social Machines to examine the ``horse-race of ideas'' and competition of narratives during the presidential election year. The goal of the Electome project is to create novel stories for data journalists as well as technically innovative ways to examine the national conversation using machine learning and ``big data'' analysis through both social and traditional media coverage. The first step of both our news and Twitter data processing method uses machine learning classifiers from the Electome project.
+% CITE ELECTOME PAPER FROM ICWSM LAST YEAR
+% \subsection{The Electome Project}
+% The backbone of our data collection and classification process lies under the umbrella of the Electome project, a large, collaborative effort with the Laboratory for Social Machines to examine the ``horse-race of ideas'' and competition of narratives during the presidential election year. The goal of the Electome project is to create novel stories for data journalists as well as technically innovative ways to examine the national conversation using machine learning and ``big data'' analysis through both social and traditional media coverage. The first step of both our news and Twitter data processing method uses machine learning classifiers from the Electome project.
 
 \subsection{News Dataset}
 
- \subsubsection{Duration \& Scope}
  For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications:
 
 \begin{multicols}{2}
@@ -134,95 +134,33 @@ The choices above span a mix of publications. We include sources that:
  to capture a variety of types of election coverage and target audiences.
  
  We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
-  
-\subsection{Data Pipeline}
 
-Articles are processed in a 3-step pipeline, pictured below.
-
-
-\begin{figure}[t!]
-\centering
-%\includegraphics[width=\columnwidth, page=33, trim = 0mm 71mm 190mm 66mm, clip=true]{presentation} 
-\includegraphics[width=\columnwidth]{election-news-pipeline}  
-\caption{Election News Pipeline
-     \label{fig:data-stack}}
-\end{figure}
-
-% \begin{figure} %[H]  
-% \centering 
-%   \includegraphics[width=0.9\textwidth]{election-news-pipeline}  
-%   \caption{Election News Pipeline
-%     \label{fig:data-stack}}
-% \end{figure}
-
-After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML.
-
-The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. 
-
+Articles are processed in a 3-step pipeline. After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML. The story text is then passed into a machine learning classifier for election news from the Electome project \cite{ICWSMPAPERFROMLAST YEAR}. 
 
  We collect and classify a total of 22,959 articles as election-related with over 80\% confidence, an average of 5,700 per month and 191 per day.
 
 
-\section{Tweets Dataset}
+\subsection{Tweets Dataset}
 
-\subsection{Duration \& Scope} 
+%%% REWRITE
 The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on Twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
 
-\subsection{Data Pipeline}
-
-Tweets pass through a similiar pipeline as news stories. We sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vijayaraghavan2016automatic}. We then filter by those that share a link (which might potentially be a news story).
-
-\begin{figure}[t!]
-\centering
-%\includegraphics[width=\columnwidth, page=33, trim = 0mm 71mm 190mm 66mm, clip=true]{presentation} 
-\includegraphics[width=\columnwidth]{Twitter-pipeline}  
-\caption{Election Tweets Pipeline
-     \label{fig:data-stack-Twitter}}
-\end{figure}
-
-
-% \begin{figure} %[H]  
-% \centering 
-%   \includegraphics[width=0.5\textwidth]{Twitter-pipeline}  
-%   \caption{Election Tweets Pipeline
-%     \label{fig:data-stack-Twitter}}
-% \end{figure} 
+Tweets pass through a similiar pipeline as news stories. First, we sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vijayaraghavan2016automatic}. We then filter by those that share a link (which might potentially be a news story). 
 
 We collect and sort a total of 16,667,685 tweets as election-related and containing at least one URL in the text, an average of 4,000,000 per month and 140,000 per day.
 
-\section{Combined Dataset}
+\subsection{Combined Dataset}
 The final step of our data collection process is to extract, expand and connect the links shared in our election-related tweets with articles in our database.
- 
-\subsection{Mapping Tweets to Stories}
-
-\begin{figure}[t!]
-\centering
-%\includegraphics[width=\columnwidth, page=33, trim = 0mm 71mm 190mm 66mm, clip=true]{presentation} 
-\includegraphics[width=\columnwidth]{data-stack} 
-\caption{Data Pipeline}
-\label{fig:data-stack}}
-\end{figure}
-
-% \begin{figure} %[H]  
-% \centering 
-%   \includegraphics[width=0.5\textwidth]{data-stack}  
-%   \caption{Data Pipeline
-%     \label{fig:data-stack}}
-% \end{figure}
  
 Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
 
 \subsection{Final Corpus}
 
-In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st.
-
-There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960).
-
-Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets.
+In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets.
 
 This left a total of 2,650 distinct articles (38\%) shared in 123,113 (89\%) tweets by 20,956 Twitter users (93\%).
 
-\subsection{Descriptive Findings}
+\subsubsection{Descriptive Findings}
 %Of the 2,658 articles shared 123,133 times on Twitter that we track in our studies, the vast majority are shared less than 100 times. 
 The vast majority of stories are shared less than 100 times. 
 
@@ -232,7 +170,6 @@ The vast majority of stories are shared less than 100 times.
   \caption{Distribution of Story Shares
     \label{fig:story-share-dist}}
 \end{figure} 
-
 
 
 Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times, however, the median (50th percentile) of shares is just 26. 
@@ -249,7 +186,7 @@ CNN, Politico, and Fox lead in publication popularity with the highest number of
 \end{figure} 
 
 
-\newpage %force table to get on the next page
+%\newpage %force table to get on the next page
 
 Examining the top 10 most shared stories, it comes as no surprise that outsized personality Donald Trump is by far the most ``tweetable'' candidate, dominating the list with 7 out of 10 stories featuring his name in the title.
 
