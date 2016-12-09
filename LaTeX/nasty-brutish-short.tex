@@ -8,6 +8,7 @@
 \usepackage{url} 
 \usepackage{multicol}
 \usepackage{array}
+\usepackage{xcolor}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -35,13 +36,19 @@ What Makes Election News Popular on Twitter?}
 }
 \maketitle
 \begin{abstract}
-AAAI creates proceedings, working notes, and technical reports directly from electronic source furnished by the authors. To ensure that all papers in the publication have a uniform appearance, authors must adhere to the following instructions. 
+Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
+Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
+Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
+
+
 \end{abstract}
 
  
 \section{Introduction}
-In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. During the 2016 election year, the New York Times published an article estimating a 2 billion-dollar advantage in free media, including social media, for Donald Trump, all of which has no small impact on the messages broadcast to voters [13].
+In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. During the 2016 election year, the New York Times published an article estimating a 2 billion-dollar advantage in free media, including social media, for Donald Trump, all of which has no small impact on the messages broadcast to voters \cite{nyt-trump-free-media}.
 
+%\footnote{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
+ 
 Although social media messages are less able to be carefully controlled in comparison to paid advertisements, they also have the potential to reach a wider audience. Reactions to an article shared by one potential voter now have the ability to be broadcast and spread to millions of others in a real-time, public sphere. 
 
 %Measuring the way that stories grow and spread has become an important part of the equation to understanding public discourse.
@@ -49,7 +56,7 @@ Although social media messages are less able to be carefully controlled in compa
 %\subsection{From Reader to Relayer}
 The popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, now each reader has the potential to broadcast stories to his or her own audience. Sharing a story requires a level of interest and activation on the part of the reader beyond simply reading a story; yet often, this trigger is predictably emotional in nature. 
 
-In a 2011 study of the New York Time’s ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy'' [Milkman 7]. In short, the desire to share a certain story is often universally impulsive, regardless of context. Yet in the case of political news, this impulse can have a large impact on reach of political messages.
+In a 2011 study of the New York Time’s ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy'' \cite{berger2012makes}. In short, the desire to share a certain story is often universally impulsive, regardless of context. Yet in the case of political news, this impulse can have a large impact on reach of political messages.
  
 
  \subsection{Hypotheses}
@@ -104,7 +111,7 @@ We also examine the effects of the degree of combined emotionality in the conten
 \subsection{News Dataset}
 
  For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications:
-
+%\newpage % i have to force a newpage (column) here or else it leaves a big blank.
 \begin{multicols}{2}
 \begin{itemize}
 
@@ -138,7 +145,7 @@ The choices above span a mix of publications. We include sources that:
  
  We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
 
-Articles are processed in a 3-step pipeline. After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML. The story text is then passed into a machine learning classifier for election news from the Electome project \cite{ICWSMPAPERFROMLAST YEAR}. 
+Articles are processed in a 3-step pipeline. After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML. The story text is then passed into a machine learning classifier for election news from the Electome project \cite{ICWSMPAPERFROMLASTYEAR}. 
 
  We collect and classify a total of 22,959 articles as election-related with over 80\% confidence, an average of 5,700 per month and 191 per day.
 
@@ -147,6 +154,7 @@ Articles are processed in a 3-step pipeline. After collecting the links to the f
 
 %%% REWRITE
 The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on Twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
+%%% REWRITE
 
 Tweets pass through a similiar pipeline as news stories. First, we sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vijayaraghavan2016automatic}. We then filter by those that share a link (which might potentially be a news story). 
 
@@ -194,29 +202,35 @@ CNN, Politico, and Fox lead in publication popularity with the highest number of
 Examining the top 10 most shared stories, it comes as no surprise that outsized personality Donald Trump is by far the most ``tweetable'' candidate, dominating the list with 7 out of 10 stories featuring his name in the title.
 
  
-\begin{table}
-%\begin{tabular}{| l || c |} 
-\begin{tabular}{ |l c| } 
-    %s\toprule
-    \hline
-    Article &  \# tweets \\
-    \hline
-    %\midrule
-    The One Weird Trait That Predicts Whether You're a Trump Supporter &   1260 \\
-    Donald Trump Is Shocking, Vulgar and Right                         &    901 \\
-    Biden praises Sanders on income inequality                         &    563 \\
-    Why I'm voting for Trump                                           &    554 \\
-    Anne Frank's stepsister compares Donald Trump to Adolf Hitler      &    445 \\
-    Trump basks in his spotlight                                       &    436 \\
-    Rubio: Law-abiding undocumented immigrants could stay              &    413 \\
-    Terrorists use Trump's `Muslim ban' speech in recruitment video    &    398 \\
-    Iowa caucuses: Donald Trump's moment of truth                      &    364 \\
-    GOP senators: If Cruz wins, we lose                                &    357 \\
-    %\bottomrule
-    \hline
-\end{tabular}
-\caption{\label{tab:top-10}Top 10 Shared Stories}
-\end{table}
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=\columnwidth]{top-10-stories}  
+  \caption{Top 10 Most Shared Articles
+    \label{fig:top-10-stories}}
+\end{figure} 
+
+% \begin{table} 
+% \begin{tabular}{ |l c| } 
+%     %s\toprule
+%     \hline
+%     Article &  \# tweets \\
+%     \hline
+%     %\midrule
+%     The One Weird Trait That Predicts Whether You're a Trump Supporter &   1260 \\
+%     Donald Trump Is Shocking, Vulgar and Right                         &    901 \\
+%     Biden praises Sanders on income inequality                         &    563 \\
+%     Why I'm voting for Trump                                           &    554 \\
+%     Anne Frank's stepsister compares Donald Trump to Adolf Hitler      &    445 \\
+%     Trump basks in his spotlight                                       &    436 \\
+%     Rubio: Law-abiding undocumented immigrants could stay              &    413 \\
+%     Terrorists use Trump's `Muslim ban' speech in recruitment video    &    398 \\
+%     Iowa caucuses: Donald Trump's moment of truth                      &    364 \\
+%     GOP senators: If Cruz wins, we lose                                &    357 \\
+%     %\bottomrule
+%     \hline
+% \end{tabular}
+% \caption{\label{tab:top-10}Top 10 Shared Stories}
+% \end{table}
 
 \begin{figure}[t!]  
 \centering 
@@ -231,10 +245,332 @@ The \emph{extent} to which he is prominent in articles is clear: by coding each 
 The large number of stories with Cruz as the most-mentioned candidate are likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
  
 
+\section{Measuring Political and Emotional Engagement}
+
+In the following sections, we discuss the tools and methods that we use to analyze our independent variables.
+
+\subsection{Emotional Coding}
+For the emotional coding of news articles, we use dictionaries from the Harvard General Inquirer, a lexicon that is popular for computerized content analysis \cite{stone1963computer}. The Inquirer is a public-use alternative to the LIWC system, which in Berger and Milkman’s study of online virality showed results that were significantly positively correlated with the output of manual coding \cite{berger2012makes}. In particular, we use the \emph{Positiv} and \emph{Negativ} collections, a set of 1,915 well-established words signifying positive outlook (not including words for \emph{yes}) and 2,291 words signifying negative outlook (not including words for \emph{no}), respectively. Repeating the same metrics from \emph{What Makes Online Content Viral?}, we quantify for each document:
+
+$$ emotionality = \frac{count(positiv \mid negativ)}{count(words)}$$
+$$ positivity = \frac{count(positiv)}{count(words)} - \frac{count(negativ)}{count(words)}$$
+
+as independent variables in our analysis.
+
+ \subsection{Followership as a Proxy for Political Engagement}
+
+In the following sections, we use Twitter followership as a proxy for measuring degrees of political engagement. 
+
+Previous research in network analysis and attempts to predict latent political affiliations of users in the social network has shown that users on Twitter tend to show network homophily within political groups, and that ``like follows like'' \cite{colleoni2014echo}. In addition, followership of only Democratic or only Republican official accounts can be used as a reasonable estimator of party loyalty. Those accounts that follow only the officials of one party tend to demonstrate more closeness with other users in their political party than those who do not.
+            
+Due to the highly individual nature of this election, where candidate loyalty does not necessarily imply goodwill towards the party, we look specifically at what candidates users follow instead of party loyalty at large. 
+
+For general \emph{levels} of political engagement, we look at the number of political candidates a Twitter user follows as a proxy for how likely they are to share political news. 
+
+In addition, for single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. 
+
+%We call each group \emph{X}-followers where \emph{X} is the candidate name, although these do not include every person on Twitter who follows \emph{X}.  
+
+\subsubsection{Candidate Followership}
+
+Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%).
+
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=\columnwidth]{users-by-candid}  
+  \caption{Number of Tweets by Each Segment
+    \label{fig:users-by-candid}}
+\end{figure} 
+
+ 
+
+Trump's free media advantage becomes clear when looking at the \emph{volume} of tweets each group of users tweet: 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz.
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=\columnwidth]{tweets-by-candid}  
+  \caption{Most frequently mentioned candidate in stories
+    \label{fig:tweets-by-candid}}
+\end{figure} 
+
+Although candidate-followership is only a proxy for the latent variable of candidate loyalty, we are observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared.
+
+%% Most popular mentioned candidate by ea. camp
+\begin{figure}[t!] 
+\centering 
+ \includegraphics[width=0.49\columnwidth]{clinton-camp-shares}
+ \includegraphics[width=0.49\columnwidth]{trump-camp-shares}  
+ \includegraphics[width=0.49\columnwidth]{sanders-camp-shares}  
+ \includegraphics[width=0.49\columnwidth]{cruz-camp-shares}  
+  %\includegraphics[width=0.32\columnwidth]{location_study2} 
+  \caption{Tweet and User Counts by Followership
+    \label{fig:users-tweets-by-candid}}
+\end{figure}
+ 
+\subsection{Political Engagement}
+
+% Descriptives of candididate 0/1/3+:
+% * Bar chart of \% by \# Following
+% * Number of tweets by each camp
+% * Most popular orgs by each camp
+% * Most popular story by each camp
+% * Most mentioned candid in each camp
+
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{candid-ct}  
+  \caption{Number of candidates followed
+    \label{fig:candid-ct}}
+\end{figure}
+
+36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. 
+
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{tweets-by-candid-ct}  
+  \caption{Ratio of Tweets to political candidates followed
+    \label{fig:candid-ct}}
+\end{figure}
+
+We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user.
+
+
+In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
+
+\begin{itemize}
+  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{single-candidate} Tweeters (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}.
+
+
+\section{Analysis} 
+For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement), to look for differences amongst different populations of political tweeters.
+
+
+\subsection{Methodology}
+
+Since our dependent variable, tweet volume, is a set of discrete counts that are positively truncated, we use negative binomial regression models for our analysis \cite{scott1997regression}. The distribution of tweet volume is not a normal distribution, and it is not recommended to perform a log transformation on count data to fit it to an OLS regression unless there is little dispersion in the data \cite{o2010not}. Poisson models are a subset of negative binomial models without the dispersion parameter. Below, we see that the negative binomial model provides the best fit and that our data is overdispersed, as the dispersion parameter $\theta$ is greater than 1.   
+
+In each case, we compare our findings to those using plain linear and Poisson regression models and are able to achieve the same significant results.  
+
+\subsection{All Data}
+\subsubsection{Story Length}
+Overall, we find a consistently significant negative correlation between story length and Twitter volume ($\beta=-0.0001$, $p<0.01$). 
+This aligns with our hypothesis \textbf{H1:} that shorter stories are more likely to be shared, due to competing resources in the attention economy.
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{story-len-table}  
+  \caption{Tweet Volume vs. Story Length
+    \label{fig:story-len-table}}
+\end{figure}
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 17:29:16
+% \begin{table}[!t] \centering 
+%   \caption{Tweet Volume vs. Story Length, All Data} 
+%   \label{} 
+%     \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+%     \\[-1.8ex]\hline 
+%     \hline \\[-1.8ex] 
+%      & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+%     \cline{2-4} 
+%     \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+%     \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+%      & \textit{} & \textit{} & \textit{binomial} \\ 
+%     \\[-1.8ex] & (1) & (2) & (3)\\ 
+%     \hline \\[-1.8ex] 
+%      Story length & $-$0.004$^{***}$ & $-$0.0001$^{***}$ & $-$0.0001$^{***}$ \\ 
+%       & (0.001) & (0.00000) & (0.00002) \\ 
+%       & & & \\ 
+%      Constant & 50.426$^{***}$ & 3.936$^{***}$ & 3.895$^{***}$ \\ 
+%       & (1.819) & (0.005) & (0.027) \\ 
+%       & & & \\ 
+%     \hline \\[-1.8ex] 
+%     Observations & 2,650 & 2,650 & 2,650 \\ 
+%     R$^{2}$ & 0.003 &  &  \\ 
+%     Adjusted R$^{2}$ & 0.003 &  &  \\ 
+%     Log Likelihood &  & $-$65,042.390 & $-$12,778.740 \\ 
+%     $\theta$ &  &  & 1.346$^{***}$  (0.034) \\ 
+%     Akaike Inf. Crit. &  & 130,088.800 & 25,561.490 \\ 
+%     Residual Std. Error & 60.156 (df = 2648) &  &  \\ 
+%     F Statistic & 8.452$^{***}$ (df = 1; 2648) &  &  \\ 
+%     \hline 
+%     \hline \\[-1.8ex] 
+%     \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+%     \end{tabular} 
+% \end{table} 
+% \newpage
+ 
+\subsubsection{Emotionality}
+Overall, we find a consistently significant positive correlation between emotionality and Twitter volume ($\beta=6.019$, $p<0.01$). 
+
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 18:56:10
+% \begin{table}[!t] \centering 
+%   \caption{Tweet Volume vs. Emotionality, All Data} 
+%   \label{} 
+%     \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+%     \\[-1.8ex]\hline 
+%     \hline \\[-1.8ex] 
+%      & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+%     \cline{2-4} 
+%     \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+%     \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+%      & \textit{} & \textit{} & \textit{binomial} \\ 
+%     \\[-1.8ex] & (1) & (2) & (3)\\ 
+%     \hline \\[-1.8ex] 
+%      Emotionality & 305.229$^{**}$ & 6.111$^{***}$ & 6.019$^{***}$ \\ 
+%       & (122.427) & (0.276) & (1.777) \\ 
+%       & & & \\ 
+%      Constant & 40.349$^{***}$ & 3.714$^{***}$ & 3.716$^{***}$ \\ 
+%       & (2.685) & (0.006) & (0.039) \\ 
+%       & & & \\ 
+%     \hline \\[-1.8ex] 
+%     Observations & 2,650 & 2,650 & 2,650 \\ 
+%     R$^{2}$ & 0.002 &  &  \\ 
+%     Adjusted R$^{2}$ & 0.002 &  &  \\ 
+%     Log Likelihood &  & $-$65,180.470 & $-$12,779.510 \\ 
+%     $\theta$ &  &  & 1.345$^{***}$  (0.034) \\ 
+%     Akaike Inf. Crit. &  & 130,364.900 & 25,563.030 \\ 
+%     Residual Std. Error & 60.181 (df = 2648) &  &  \\ 
+%     F Statistic & 6.216$^{**}$ (df = 1; 2648) &  &  \\ 
+%     \hline 
+%     \hline \\[-1.8ex] 
+%     \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+%     \end{tabular} 
+% \end{table} 
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{emot-table}  
+  \caption{Tweet Volume vs. Story Emotionality
+    \label{fig:emot-table}}
+\end{figure}
+
+
+This confirms \textbf{H2:} that emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
+
+ 
+\subsubsection{Positivity}
+Overall, we find a consistently significant negative correlation between positivity and Twitter volume ($\beta=−5.391$, $p<0.01$). 
+ 
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% % Date and time: Sun, Jul 24, 2016 - 18:58:37
+% \begin{table}[!t] \centering 
+%   \caption{Tweet Volume vs. Positivity, All Data} 
+%   \label{} 
+%     \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+%     \\[-1.8ex]\hline 
+%     \hline \\[-1.8ex] 
+%      & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+%     \cline{2-4} 
+%     \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+%     \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+%      & \textit{} & \textit{} & \textit{binomial} \\ 
+%     \\[-1.8ex] & (1) & (2) & (3)\\ 
+%     \hline \\[-1.8ex] 
+%      Positivity & $-$281.010$^{**}$ & $-$6.029$^{***}$ & $-$5.391$^{***}$ \\ 
+%       & (139.546) & (0.338) & (2.029) \\ 
+%       & & & \\ 
+%      Constant & 47.078$^{***}$ & 3.851$^{***}$ & 3.849$^{***}$ \\ 
+%       & (1.221) & (0.003) & (0.018) \\ 
+%       & & & \\ 
+%     \hline \\[-1.8ex] 
+%     Observations & 2,650 & 2,650 & 2,650 \\ 
+%     R$^{2}$ & 0.002 &  &  \\ 
+%     Adjusted R$^{2}$ & 0.001 &  &  \\ 
+%     Log Likelihood &  & $-$65,253.640 & $-$12,781.640 \\ 
+%     $\theta$ &  &  & 1.343$^{***}$  (0.034) \\ 
+%     Akaike Inf. Crit. &  & 130,511.300 & 25,567.270 \\ 
+%     Residual Std. Error & 60.206 (df = 2648) &  &  \\ 
+%     F Statistic & 4.055$^{**}$ (df = 1; 2648) &  &  \\ 
+%     \hline 
+%     \hline \\[-1.8ex] 
+%     \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+%     \end{tabular} 
+% \end{table} 
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{story-len-table}  
+  \caption{Tweet Volume vs. Story Length
+    \label{fig:story-len-table}}
+\end{figure}
 
 
 
+This finding supports \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}.
 
-\bibliographystyle{aaai} \bibliography{nasty-brutish-short.bib}
+\subsection{By Degree of Political Engagement}
 
+Next, we segment levels of political engagement into three groups for the sake of comparison:
+
+\begin{itemize}
+  \item \emph{The unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{Single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{Political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}
+
+We repeat the same methods and variables in determining our correlations. For the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A, tables A.1 - A.9.
+
+Overall, we find that: 
+
+\emph{Unaffiliated tweeters} show the same patterns as the general dataset with a negative correlation between story length and Twitter shares ($\beta=-0.003$, $p<0.01$), positive correlation between emotionality and Twitter shares ($\beta=7.427$, $p<0.01$), and a negative correlation between positivity and Twitter shares ($\beta=-4.036$, $p<0.01$).
+
+\emph{Single-candidate followers}, on the other hand, show a slight positive correlation between story length and number of Twitter shares ($\beta=0.0002$, $p<0.01$). We hypothesize that if following a single candidate can serve as a proxy for candidate loyalty, then perhaps the correlation signifies a willingness to read and share more complex content on behalf of the candidate and a deeper degree of political involvement.
+
+We see the same effects for the \emph{political aficionados} group, again, a small but significant positive correlation between story length and number of tweets ($\beta=0.0003$, $p<0.01$). Again, this suggests a potential difference in levels of engagement with political news.
+
+
+\subsection{By Candidate} 
+
+We divide Twitter users into four segments: Trump-only, Clinton-only, Sanders-only, and Cruz-only followers and repeat the same regressions within each population. Again, for the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A, tables A.10 - A.21.
+
+Overall, we were unable to find a significant difference in direction of correlations between any of the three independent variables between candidate groups. However, we did find differences in magnitudes of the coefficients; most notably a strong negative correlation between postivity and number of tweets for Trump-only followers, almost three-fold in magnitude ($\beta=-14.692$, $p<0.01$ compared to the dataset at large ($\beta=-5.391$, $p<0.01$ ).
+
+As discussed in the section above, all single-candidate followers that showed a significant correlation between story length and number of Twitter shares showed a slight positive correlation.
+
+\section{Conclusion}
+
+We find that, on the whole:
+\begin{itemize}
+    \item Shorter stories are more likely to be shared on Twitter (\textbf{H1})
+    \item Stories high in emotional words, both negative and positive, are more likely to be shared on Twitter (\textbf{H2})
+    \item Stories that are less positive are more likely to be shared on Twitter (\textbf{H3})
+\end{itemize}
+
+These results confirm our expectations of reader attention on the Internet, the emotional nature of content virality, and the negative connotation of political media. 
+
+We were able to see small but significant differences in the number of political candidates a user followed and the length of the stories that were likely to be shared, suggesting differing degrees of political involvement. However, we were unable to find many significant differences between segments by specific political candidates that users followed. 
+
+This suggests that either the characteristics of political news we examine (length, emotionality, positivity) are universal in their effects on motivating readers to share articles, or that our methods of dividing Twitter users do not reveal significant underlying differences between readers.
+
+
+\section{Limitations \& Future Work}
+Although we take a ``big data'' approach to our analysis, our dataset is by no means a complete mapping of \emph{all} political news sharing activity on Twitter. Our sources are limited to a small but diverse set of publications, which are by no means representative of all news outlets.
+
+Furthermore, we match tweets with stories optimizing for efficiency and speed by using regular expressions, rather than completeness.
+
+Potential paths of future research include:
+\begin{itemize}
+\item Expanding the set of publications tracked  
+\item Replicating the analysis on a real-time basis
+\item Using machine learning methods to match tweets with stories in a more intelligent way
+\item Analyzing more nuanced emotive words in the text, in addition to positive and negative words
+\item Looking at additional signals in the Twitter data, such as user characteristics of the sharer and network aspects of stories being shared
+\item Segmenting Twitter users in different ways aside from candidates followed
+ \end{itemize}
+
+Still, this analysis provides a first view of article sharing on Twitter in a unique and eventful election year with large responses on social media.
+   
+\bibliography{nasty-brutish-short}
+\bibliographystyle{aaai} 
+ 
 \end{document}

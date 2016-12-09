@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 DEC 2016 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 DEC 2016 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**nasty-brutish-short
+**nasty-brutish-short.tex
 (./nasty-brutish-short.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -99,6 +99,35 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count96
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -112,18 +141,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count96
-))
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
@@ -243,24 +261,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 LaTeX Warning: Label `fig:tweets-by-pub' multiply defined.
 
+
+LaTeX Warning: Label `fig:candid-ct' multiply defined.
+
+
+LaTeX Warning: Label `fig:story-len-table' multiply defined.
+
 )
 \openout1 = `nasty-brutish-short.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -293,7 +317,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -303,40 +327,40 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./nasty-brutish-short.out) (./nasty-brutish-short.out)
 \@outlinefile=\write3
 \openout3 = `nasty-brutish-short.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 38.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-Underfull \hbox (badness 1033) in paragraph at lines 73--74
+Underfull \hbox (badness 1033) in paragraph at lines 80--81
 []\OT1/ptm/m/n/10 For each of these three in-de-pen-dent vari-ables (story
  []
 
@@ -354,65 +378,170 @@ Runaway argument?
 ! Paragraph ended before \@citex was complete.
 <to be read again> 
                    \par 
-l.90 
+l.97 
      
 ? 
-[2]
 
-LaTeX Warning: Citation `PoliticalPolarization' on page 3 undefined on input li
-ne 130.
+LaTeX Warning: Citation `ICWSMPAPERFROMLASTYEAR' on page 2 undefined on input l
+ine 148.
 
-
-LaTeX Warning: Citation `ICWSMPAPERFROMLAST YEAR' on page 3 undefined on input 
-line 141.
-
-
-LaTeX Warning: Citation `vijayaraghavan2016automatic' on page 3 undefined on in
-put line 151.
-
-
-LaTeX Warning: Citation `tange2011gnu' on page 3 undefined on input line 158.
-
-<images/story-share-dist.png, id=79, 750.805pt x 515.9275pt>
+[2] <images/story-share-dist.png, id=131, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
-Package pdftex.def Info: images/story-share-dist.png used on input line 172.
+Package pdftex.def Info: images/story-share-dist.png used on input line 180.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-<images/all-stories-by-pub.png, id=81, 750.805pt x 515.9275pt>
+<images/all-stories-by-pub.png, id=133, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
-Package pdftex.def Info: images/all-stories-by-pub.png used on input line 186.
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 194.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-Overfull \hbox (101.39268pt too wide) in paragraph at lines 199--218
-[][] 
- []
+<images/top-10-stories.png, id=134, 584.1825pt x 224.84pt>
+File: images/top-10-stories.png Graphic file (type png)
 
-<images/candidate-mentions.png, id=82, 750.805pt x 515.9275pt>
+<use images/top-10-stories.png>
+Package pdftex.def Info: images/top-10-stories.png used on input line 207.
+(pdftex.def)             Requested size: 239.39438pt x 92.13696pt.
+
+<images/candidate-mentions.png, id=135, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
-Package pdftex.def Info: images/candidate-mentions.png used on input line 223.
+Package pdftex.def Info: images/candidate-mentions.png used on input line 237.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
- [3 <./images/story-share-dist.png>]
-(./nasty-brutish-short.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+ [3 <./images/story-share-dist.png> <./images/all-stories-by-pub.png> <./images
+/top-10-stories.png>]
+Underfull \hbox (badness 4036) in paragraph at lines 276--277
+ []\OT1/ptm/b/n/10 Candidate Fol-low-er-ship[] \OT1/ptm/m/n/10 Our dataset con-
+tains 6,406
+ []
+
+<images/users-by-candid.png, id=153, 750.805pt x 515.9275pt>
+File: images/users-by-candid.png Graphic file (type png)
+
+<use images/users-by-candid.png>
+Package pdftex.def Info: images/users-by-candid.png used on input line 281.
+(pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
+
+<images/tweets-by-candid.png, id=154, 750.805pt x 515.9275pt>
+File: images/tweets-by-candid.png Graphic file (type png)
+
+<use images/tweets-by-candid.png>
+Package pdftex.def Info: images/tweets-by-candid.png used on input line 292.
+(pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
+ [4 <./images/candidate-mentions.png> <./images/users-by-candid.png> <./images/
+tweets-by-candid.png>]
+<images/clinton-camp-shares.png, id=173, 750.805pt x 515.9275pt>
+File: images/clinton-camp-shares.png Graphic file (type png)
+
+<use images/clinton-camp-shares.png>
+Package pdftex.def Info: images/clinton-camp-shares.png used on input line 302.
+
+(pdftex.def)             Requested size: 117.30455pt x 80.60559pt.
+
+<images/trump-camp-shares.png, id=174, 750.805pt x 515.9275pt>
+File: images/trump-camp-shares.png Graphic file (type png)
+
+<use images/trump-camp-shares.png>
+Package pdftex.def Info: images/trump-camp-shares.png used on input line 303.
+(pdftex.def)             Requested size: 117.30455pt x 80.60559pt.
+
+<images/sanders-camp-shares.png, id=175, 750.805pt x 515.9275pt>
+File: images/sanders-camp-shares.png Graphic file (type png)
+
+<use images/sanders-camp-shares.png>
+Package pdftex.def Info: images/sanders-camp-shares.png used on input line 304.
+
+(pdftex.def)             Requested size: 117.30455pt x 80.60559pt.
+
+<images/cruz-camp-shares.png, id=176, 750.805pt x 515.9275pt>
+File: images/cruz-camp-shares.png Graphic file (type png)
+
+<use images/cruz-camp-shares.png>
+Package pdftex.def Info: images/cruz-camp-shares.png used on input line 305.
+(pdftex.def)             Requested size: 117.30455pt x 80.60559pt.
+
+
+! LaTeX Error: File `candid-ct' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 ...raphics[width=1.0\columnwidth]{candid-ct}
+                                                  
+? 
+
+! LaTeX Error: File `tweets-by-candid-ct' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 ...dth=1.0\columnwidth]{tweets-by-candid-ct}
+                                                  
+? 
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+<images/story-len-table.png, id=179, 587.19376pt x 494.84875pt>
+File: images/story-len-table.png Graphic file (type png)
+
+<use images/story-len-table.png>
+Package pdftex.def Info: images/story-len-table.png used on input line 367.
+(pdftex.def)             Requested size: 239.39438pt x 201.74158pt.
+
+<images/emot-table.png, id=180, 583.17876pt x 561.09625pt>
+File: images/emot-table.png Graphic file (type png)
+
+<use images/emot-table.png>
+Package pdftex.def Info: images/emot-table.png used on input line 452.
+(pdftex.def)             Requested size: 239.39438pt x 230.32492pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+File: images/story-len-table.png Graphic file (type png)
+ <use images/story-len-table.png>
+Package pdftex.def Info: images/story-len-table.png used on input line 502.
+(pdftex.def)             Requested size: 239.39438pt x 201.74158pt.
+ [5 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./imag
+es/sanders-camp-shares.png> <./images/cruz-camp-shares.png> <./images/story-len
+-table.png>]
+[6 <./images/emot-table.png>] (./nasty-brutish-short.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
- [4 <./images/all-stories-by-pub.png> <./images/candidate-mentions.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+)
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
 
-(./nasty-brutish-short.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+[]\OT1/ptm/m/n/10 Vijayaraghavan,
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
+ (./nasty-brutish-short.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 576.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
 Package rerunfilecheck Info: File `nasty-brutish-short.out' has not changed.
-(rerunfilecheck)             Checksum: CC3C257983BA42CDD88692A1905CC3BE;664.
+(rerunfilecheck)             Checksum: 64746107F466DAEC48DF239B0AAACEBC;1397.
 
 
 LaTeX Warning: There were undefined references.
@@ -420,27 +549,29 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 576.
  ) 
 Here is how much of TeX's memory you used:
- 5428 strings out of 493089
- 81687 string characters out of 6134842
- 173615 words of memory out of 5000000
- 8832 multiletter control sequences out of 15000+600000
+ 5975 strings out of 493089
+ 88843 string characters out of 6134842
+ 185008 words of memory out of 5000000
+ 9315 multiletter control sequences out of 15000+600000
  17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,10n,28p,931b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,11n,35p,935b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on nasty-brutish-short.pdf (4 pages, 183431 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on nasty-brutish-short.pdf (7 pages, 982200 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
