@@ -27,7 +27,7 @@ What Makes Election News Popular on Twitter?)
 % The file aaai.sty is the style file for AAAI Press 
 % proceedings, working notes, and technical reports.
 %
-\title{Nasty, Brutish, and Short: 
+\title{Nasty, Brutish, and Short:\\
 What Makes Election News Popular on Twitter?}
 \author{Anonymous\\
 %Association for the Advancement of Artificial Intelligence\\
@@ -45,10 +45,10 @@ Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipisc
 
  
 \section{Introduction}
-In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. During the 2016 election year, the New York Times published an article estimating a 2 billion-dollar advantage in free media, including social media, for Donald Trump, all of which has no small impact on the messages broadcast to voters \cite{nyt-trump-free-media}.
+In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. 
 
-%\footnote{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
- 
+In 2008, President Barack Obama's winning campaign was largely attributed to the success of his social media strategy, the first example of its kind. By establishing an online presence that recruited more than 3 million individual contributors and 5 million volunteers, Obama was able to create a grassroots political movement \cite{cogburn2011networked}. Publicity and public sound bites matter-- especially when it’s free and has the potential to go viral.
+
 Although social media messages are less able to be carefully controlled in comparison to paid advertisements, they also have the potential to reach a wider audience. Reactions to an article shared by one potential voter now have the ability to be broadcast and spread to millions of others in a real-time, public sphere. 
 
 %Measuring the way that stories grow and spread has become an important part of the equation to understanding public discourse.
@@ -56,8 +56,11 @@ Although social media messages are less able to be carefully controlled in compa
 %\subsection{From Reader to Relayer}
 The popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, now each reader has the potential to broadcast stories to his or her own audience. Sharing a story requires a level of interest and activation on the part of the reader beyond simply reading a story; yet often, this trigger is predictably emotional in nature. 
 
-In a 2011 study of the New York Time’s ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy'' \cite{berger2012makes}. In short, the desire to share a certain story is often universally impulsive, regardless of context. Yet in the case of political news, this impulse can have a large impact on reach of political messages.
+In a 2011 study of the New York Time’s ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy'' \cite{berger2012makes}. In short, the desire to share a certain story is often universally impulsive, regardless of context. Yet in the case of political news, this impulse can have a large impact on reach of political messages, an impact that is not always equally favorable. During the 2016 election year, the New York Times published an article estimating a 2 billion-dollar advantage in free media, including social media, for Donald Trump, all of which has no small impact on the messages broadcast to voters \cite{nyt-trump-free-media}.
+
+%\footnote{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
  
+
 
  \subsection{Hypotheses}
 With the impact of social media in politics  \emph{and} the often emotionally charged nature of content-sharing in mind, we ask the following question in our research: 
@@ -163,7 +166,7 @@ We collect and sort a total of 16,667,685 tweets as election-related and contain
 \subsection{Combined Dataset}
 The final step of our data collection process is to extract, expand and connect the links shared in our election-related tweets with articles in our database.
  
-Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
+Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use regular expressions to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
 
 \subsection{Final Corpus}
 
@@ -343,8 +346,8 @@ In the following analyses, we segment levels of political engagement into three 
 \begin{itemize}
   \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
   \item \emph{single-candidate} Tweeters (those who follow one and only one presidential candidate, and tweet about political news)
-  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
-\end{itemize}.
+  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news).
+\end{itemize}
 
 
 \section{Analysis} 
@@ -569,7 +572,49 @@ Potential paths of future research include:
  \end{itemize}
 
 Still, this analysis provides a first view of article sharing on Twitter in a unique and eventful election year with large responses on social media.
-   
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 22, 2016 - 11:14:33
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & num\_tweets \\ 
+\hline \\[-1.8ex] 
+ log(wc) & $-$0.088$^{***}$ \\ 
+  & (0.017) \\ 
+  & \\ 
+ emotionality & 6.279$^{***}$ \\ 
+  & (1.770) \\ 
+  & \\ 
+ positivity & $-$5.978$^{***}$ \\ 
+  & (2.013) \\ 
+  & \\ 
+ Constant & 4.296$^{***}$ \\ 
+  & (0.117) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 2,650 \\ 
+Log Likelihood & $-$12,761.660 \\ 
+$\theta$ & 1.361$^{***}$  (0.035) \\ 
+Akaike Inf. Crit. & 25,531.320 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+
+
+
+
+
+
+
 \bibliography{nasty-brutish-short}
 \bibliographystyle{aaai} 
  
