@@ -52,6 +52,13 @@ Gottfried, J.
 \newblock Retrieved from \url{http://www.pewresearch.org}.
 \newblock (Accessed on 07/16/2016).
 
+\bibitem[\protect\citeauthoryear{Mitchell and
+  Hitlin}{2013}]{mitchell2013twitter}
+Mitchell, A., and Hitlin, P.
+\newblock 2013.
+\newblock Twitter reaction to events often at odds with overall public opinion.
+\newblock {\em Pew Research Center} 4.
+
 \bibitem[\protect\citeauthoryear{Mitchell \bgroup et al\mbox.\egroup
   }{2014}]{PoliticalPolarization}
 Mitchell, A.; Gottfried, J.; Kiley, J.; and Matsa, K.~E.
@@ -94,10 +101,16 @@ Tange, O., et~al.
 \newblock {\em The USENIX Magazine} 36(1):42--47.
 
 \bibitem[\protect\citeauthoryear{Vijayaraghavan, Vosoughi, and
-  Roy}{2016}]{vijayaraghavan2016automatic}
+  Roy}{2016}]{vvr_electome2016}
 Vijayaraghavan, P.; Vosoughi, S.; and Roy, D.
 \newblock 2016.
 \newblock Automatic detection and categorization of election-related tweets.
-\newblock {\em arXiv preprint arXiv:1605.05150}.
+\newblock In {\em 10th International AAAI Conference on Web and Social Media}.
+
+\bibitem[\protect\citeauthoryear{Vijayaraghavan}{2016}]{vijayaraghavan-thesis}
+Vijayaraghavan, P.
+\newblock 2016.
+\newblock {Automatic Identification of Representative Content on Twitter}.
+\newblock Master's thesis, Massachusetts Institute of Technology.
 
 \end{thebibliography}

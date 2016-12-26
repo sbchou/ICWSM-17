@@ -3,46 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: nasty-brutish-short.aux
 The style file: aaai.bst
 Database file #1: nasty-brutish-short.bib
-Warning--I didn't find a database entry for "ICWSMPAPERFROMLASTYEAR"
-You've used 14 entries,
+You've used 16 entries,
             2568 wiz_defined-function locations,
-            666 strings with 7068 characters,
-and the built_in function-call counts, 5166 in all, are:
-= -- 569
-> -- 188
+            672 strings with 7306 characters,
+and the built_in function-call counts, 5760 in all, are:
+= -- 634
+> -- 208
 < -- 1
-+ -- 63
-- -- 60
-* -- 400
-:= -- 861
-add.period$ -- 75
-call.type$ -- 14
-change.case$ -- 85
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 191
-empty$ -- 364
-format.name$ -- 84
-if$ -- 1045
++ -- 69
+- -- 66
+* -- 439
+:= -- 968
+add.period$ -- 85
+call.type$ -- 16
+change.case$ -- 96
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 218
+empty$ -- 408
+format.name$ -- 93
+if$ -- 1165
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 92
-num.names$ -- 42
-pop$ -- 67
+missing$ -- 12
+newline$ -- 104
+num.names$ -- 48
+pop$ -- 76
 preamble$ -- 1
-purify$ -- 99
+purify$ -- 112
 quote$ -- 0
-skip$ -- 163
+skip$ -- 182
 stack$ -- 0
-substring$ -- 249
-swap$ -- 37
+substring$ -- 259
+swap$ -- 40
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 128
 warning$ -- 0
-while$ -- 43
-width$ -- 17
-write$ -- 203
-(There was 1 warning)
+while$ -- 47
+width$ -- 20
+write$ -- 231
