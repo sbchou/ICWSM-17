@@ -358,19 +358,73 @@ For each of these three independent variables (story length, emotionality, posit
 
 Since our dependent variable, tweet volume, is a set of discrete counts that are positively truncated, we use negative binomial regression models for our analysis \cite{scott1997regression}. The distribution of tweet volume is not a normal distribution, and it is not recommended to perform a log transformation on count data to fit it to an OLS regression unless there is little dispersion in the data \cite{o2010not}. Poisson models are a subset of negative binomial models without the dispersion parameter. In our analyses, we see that the negative binomial model provides the best fit and that our data is overdispersed, as the dispersion parameter $\theta$ is greater than 1.   
 
-In each case, we compare our findings to those using linear and Poisson regression models, and are able to achieve the same significant results.  
+In addition, we apply a log transformation on the independent variable of story length, as its distribution follows an approximate power law. Both emotionality and positivity are more normally distributed so we do not transform the data.
+In each case, we compare our findings to those using linear and Poisson regression models, and are able to achieve the same significant results. 
+
+%% IF NEC, YOU CAN INCLUDE THESE DISTRIBUTION CHARTS,
+% %% BUT THAT MIGHT RAISE QUESTIONS ABOUT LEFT-SKEW OF POS., ETC.
+% \begin{figure}[t!] 
+% \centering 
+%  \includegraphics[width=1\columnwidth]{wc_dist}
+%  \includegraphics[width=1\columnwidth]{log_wc_dist}  
+%  \includegraphics[width=1\columnwidth]{emot_dist}  
+%  \includegraphics[width=1\columnwidth]{pos_dist}  
+%   %\includegraphics[width=0.32\textwidth]{location_study2} 
+%   \caption{Tweet and User Counts by Followership
+%     \label{fig:users-tweets-by-candid}}
+% \end{figure}
+
+
 
 \subsection{All Data}
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Thu, Dec 22, 2016 - 11:14:33
+\begin{table}[!htbp] \centering 
+  \caption{Story Popularity vs. Story Traits, All Tweets} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & num\_tweets \\ 
+\hline \\[-1.8ex] 
+ log(wc) & $-$0.088$^{***}$ \\ 
+  & (0.017) \\ 
+  & \\ 
+ emotionality & 6.279$^{***}$ \\ 
+  & (1.770) \\ 
+  & \\ 
+ positivity & $-$5.978$^{***}$ \\ 
+  & (2.013) \\ 
+  & \\ 
+ Constant & 4.296$^{***}$ \\ 
+  & (0.117) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 2,650 \\ 
+Log Likelihood & $-$12,761.660 \\ 
+$\theta$ & 1.361$^{***}$  (0.035) \\ 
+Akaike Inf. Crit. & 25,531.320 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+
+
 \subsubsection{Story Length}
-Overall, we find a consistently significant negative correlation between story length and Twitter volume ($\beta=-0.0001$, $p<0.01$). 
+Overall, we find a consistently negative correlation of high significance between story length and Twitter volume ($\beta=-0.088$, $p<0.01$). 
 This aligns with our hypothesis \textbf{H1:} that shorter stories are more likely to be shared, due to competing resources in the attention economy.
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=1.0\columnwidth]{story-len-table}  
-  \caption{Tweet Volume vs. Story Length, All Tweets
-    \label{fig:story-len-table}}
-\end{figure}
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=1.0\columnwidth]{story-len-table}  
+%   \caption{Tweet Volume vs. Story Length, All Tweets
+%     \label{fig:story-len-table}}
+% \end{figure}
 
 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
@@ -411,7 +465,7 @@ This aligns with our hypothesis \textbf{H1:} that shorter stories are more likel
 % \newpage
  
 \subsubsection{Emotionality}
-Overall, we find a consistently significant positive correlation between emotionality and Twitter volume ($\beta=6.019$, $p<0.01$). 
+Overall, we find a consistently positive correlation of high significance between emotionality and Twitter volume ($\beta=6.279$, $p<0.01$). 
 
 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
@@ -450,19 +504,19 @@ Overall, we find a consistently significant positive correlation between emotion
 %     \end{tabular} 
 % \end{table} 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=1.0\columnwidth]{emot-table}  
-  \caption{Tweet Volume vs. Story Emotionality, All Tweets
-    \label{fig:emot-table}}
-\end{figure}
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=1.0\columnwidth]{emot-table}  
+%   \caption{Tweet Volume vs. Story Emotionality, All Tweets
+%     \label{fig:emot-table}}
+% \end{figure}
 
 
 This confirms \textbf{H2:} that emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
 
  
 \subsubsection{Positivity}
-Overall, we find a consistently significant negative correlation between positivity and Twitter volume ($\beta=−5.391$, $p<0.01$). 
+Overall, we find a consistently negative correlation of high significance between positivity and Twitter volume ($\beta=−5.978$, $p<0.01$). 
  
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % % Date and time: Sun, Jul 24, 2016 - 18:58:37
@@ -500,12 +554,12 @@ Overall, we find a consistently significant negative correlation between positiv
 %     \end{tabular} 
 % \end{table} 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=1.0\columnwidth]{story-len-table}  
-  \caption{Tweet Volume vs. Positivity, All Tweets
-    \label{fig:story-len-table}}
-\end{figure}
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=1.0\columnwidth]{story-len-table}  
+%   \caption{Tweet Volume vs. Positivity, All Tweets
+%     \label{fig:story-len-table}}
+% \end{figure}
 
 
 This finding supports \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}.
@@ -533,7 +587,7 @@ We see the same effects for the \emph{political aficionados} group, again, a sma
 
 \subsection{By Candidate} 
 
-We divide Twitter users into four segments: Trump-only, Clinton-only, Sanders-only, and Cruz-only followers and repeat the same regressions within each population. Again, for the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A, tables A.10 - A.21.
+We divide Twitter users into four segments: Trump-only, Clinton-only, Sanders-only, and Cruz-only followers and repeat the same regressions within each population. 
 
 Overall, we were unable to find a significant difference in direction of correlations between any of the three independent variables between candidate groups. However, we did find differences in magnitudes of the coefficients; most notably a strong negative correlation between postivity and number of tweets for Trump-only followers, almost three-fold in magnitude ($\beta=-14.692$, $p<0.01$ compared to the dataset at large ($\beta=-5.391$, $p<0.01$ ).
 
@@ -572,43 +626,7 @@ Potential paths of future research include:
 
 Still, this analysis provides a first view of article sharing on Twitter in a unique and eventful election year with large responses on social media.
 
-% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Thu, Dec 22, 2016 - 11:14:33
-\begin{table}[!htbp] \centering 
-  \caption{} 
-  \label{} 
-\begin{tabular}{@{\extracolsep{5pt}}lc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
- & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-\cline{2-2} 
-\\[-1.8ex] & num\_tweets \\ 
-\hline \\[-1.8ex] 
- log(wc) & $-$0.088$^{***}$ \\ 
-  & (0.017) \\ 
-  & \\ 
- emotionality & 6.279$^{***}$ \\ 
-  & (1.770) \\ 
-  & \\ 
- positivity & $-$5.978$^{***}$ \\ 
-  & (2.013) \\ 
-  & \\ 
- Constant & 4.296$^{***}$ \\ 
-  & (0.117) \\ 
-  & \\ 
-\hline \\[-1.8ex] 
-Observations & 2,650 \\ 
-Log Likelihood & $-$12,761.660 \\ 
-$\theta$ & 1.361$^{***}$  (0.035) \\ 
-Akaike Inf. Crit. & 25,531.320 \\ 
-\hline 
-\hline \\[-1.8ex] 
-\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-\end{tabular} 
-\end{table} 
-
-
-
+ 
 
 
 
