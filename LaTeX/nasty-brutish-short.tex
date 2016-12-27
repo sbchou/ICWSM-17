@@ -345,8 +345,8 @@ In the following analyses, we segment levels of political engagement into three 
 
 \begin{itemize}
   \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
-  \item \emph{single-candidate} Tweeters (those who follow one and only one presidential candidate, and tweet about political news)
-  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news).
+  \item \emph{the loyal} (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{the political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news).
 \end{itemize}
 
 
@@ -566,24 +566,90 @@ This finding supports \textbf{H3:} Positivity has a \emph{negative} correlation 
 
 \subsection{By Degree of Political Engagement}
 
-Next, we segment levels of political engagement into three groups for the sake of comparison:
-
-\begin{itemize}
-  \item \emph{The unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
-  \item \emph{Single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
-  \item \emph{Political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
-\end{itemize}
-
-We repeat the same methods and variables in determining our correlations. Again, we test all three models (OLS, Poisson, and NB) for consistency and report the results of the negative binomial model.
-
+For the three levels of political engagement (the unaffiliated, single-candidate followers, and political aficionados) we repeat the same methods and variables in determining our correlations. Again, we test all three models (OLS, Poisson, and NB) for consistency and report the results of the negative binomial model.
+ 
+ 
 Overall, we find that: 
 
-\emph{Unaffiliated tweeters} show the same patterns as the general dataset with a negative correlation between story length and Twitter shares ($\beta=-0.003$, $p<0.01$), positive correlation between emotionality and Twitter shares ($\beta=7.427$, $p<0.01$), and a negative correlation between positivity and Twitter shares ($\beta=-4.036$, $p<0.01$).
 
-\emph{Single-candidate followers}, on the other hand, show a slight positive correlation between story length and number of Twitter shares ($\beta=0.0002$, $p<0.01$). We hypothesize that if following a single candidate can serve as a proxy for candidate loyalty, then perhaps the correlation signifies a willingness to read and share more complex content on behalf of the candidate and a deeper degree of political involvement.
+\emph{The unaffiliated} show the same patterns as the general dataset with a negative correlation between story length and Twitter shares ($\beta=-0.283$, $p<0.01$), positive correlation between emotionality and Twitter shares ($\beta=10.718$, $p<0.01$), and a negative correlation between positivity and Twitter shares ($\beta=-4.968$, $p<0.05$).
 
-We see the same effects for the \emph{political aficionados} group, again, a small but significant positive correlation between story length and number of tweets ($\beta=0.0003$, $p<0.01$). Again, this suggests a potential difference in levels of engagement with political news.
+\emph{The loyal}, on the other hand, show a slight positive correlation between story length and number of Twitter shares ($\beta=0.156$, $p<0.01$). For emotionality ($\beta=5.577$, $p<0.01$) and positivity ($\beta=-7.754$, $p<0.01$), the trends remain the same. 
 
+ We hypothesize that if following a single candidate can serve as a proxy for candidate loyalty, then perhaps the correlation signifies a willingness to read and share more complex content on behalf of the candidate and a deeper degree of political involvement.
+
+We see the same effects for the \emph{political aficionados} group, again, a small but significant positive correlation between story length and number of tweets ($\beta=0.205$, $p<0.01$). For this group, we found no significant correlations between emotionality and Twitter popularity, although there was a significant negative correlation (as before) between positivity and tweets ($\beta=-6.043$, $p<0.05$). Again, this suggests a potential difference in levels of engagement with political news.
+ 
+
+% % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% % Date and time: Tue, Dec 27, 2016 - 12:45:31
+% \begin{table}[!htbp] \centering 
+%   \caption{Story Popularity vs. Story Traits, Single-Candidate Followers} 
+%   \label{} 
+% \begin{tabular}{@{\extracolsep{5pt}}lc} 
+% \\[-1.8ex]\hline 
+% \hline \\[-1.8ex] 
+%  & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+% \cline{2-2} 
+% \\[-1.8ex] & num\_tweets \\ 
+% \hline \\[-1.8ex] 
+%  log(wc) & 0.156$^{***}$ \\ 
+%   & (0.018) \\ 
+%   & \\ 
+%  emotionality & 5.577$^{***}$ \\ 
+%   & (1.923) \\ 
+%   & \\ 
+%  positivity & $-$7.754$^{***}$ \\ 
+%   & (2.200) \\ 
+%   & \\ 
+%  Constant & 1.125$^{***}$ \\ 
+%   & (0.130) \\ 
+%   & \\ 
+% \hline \\[-1.8ex] 
+% Observations & 2,581 \\ 
+% Log Likelihood & $-$8,429.152 \\ 
+% $\theta$ & 1.351$^{***}$  (0.040) \\ 
+% Akaike Inf. Crit. & 16,866.300 \\ 
+% \hline 
+% \hline \\[-1.8ex] 
+% \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+% \end{tabular} 
+% \end{table} 
+
+% % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% % Date and time: Tue, Dec 27, 2016 - 12:47:43
+% \begin{table}[!htbp] \centering 
+%   \caption{Story Popularity vs. Story Traits, Political Aficionados}
+%   \label{} 
+% \begin{tabular}{@{\extracolsep{5pt}}lc} 
+% \\[-1.8ex]\hline 
+% \hline \\[-1.8ex] 
+%  & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+% \cline{2-2} 
+% \\[-1.8ex] & num\_tweets \\ 
+% \hline \\[-1.8ex] 
+%  log(wc) & 0.205$^{***}$ \\ 
+%   & (0.022) \\ 
+%   & \\ 
+%  emotionality & $-$0.656 \\ 
+%   & (2.330) \\ 
+%   & \\ 
+%  positivity & $-$6.043$^{**}$ \\ 
+%   & (2.753) \\ 
+%   & \\ 
+%  Constant & $-$0.085 \\ 
+%   & (0.160) \\ 
+%   & \\ 
+% \hline \\[-1.8ex] 
+% Observations & 1,841 \\ 
+% Log Likelihood & $-$4,224.546 \\ 
+% $\theta$ & 2.370$^{***}$  (0.119) \\ 
+% Akaike Inf. Crit. & 8,457.093 \\ 
+% \hline 
+% \hline \\[-1.8ex] 
+% \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+% \end{tabular} 
+% \end{table} 
 
 \subsection{By Candidate} 
 
