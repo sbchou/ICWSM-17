@@ -36,10 +36,8 @@ What Makes Election News Popular on Twitter?}
 }
 \maketitle
 \begin{abstract}
-Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
-Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
-Lorem ipsum dolor. Sit amet mauris. Sed ut eu aliquam integer nibh vitae adipiscing diam mauris erat est. Libero amet parturient. Nulla vehicula dui elit cras ante. Lacus imperdiet scelerisque felis bibendum dolorem maecenas amet quis. Magna ultricies faucibus esse convallis quis. Leo pretium habitasse. Nam cursus aptent bibendum nulla per conubia tellus tincidunt. Eget tellus sed ut vel erat.
 
+During the 2016 U.S. presidential elections, social media played a large role in both the creation and propogation of stories. In particular, Twitter served as an important platform for the spread of news articles, which have significant influence on public opinion. Yet the sharing of content is often based on innate emotional triggers that are seldom rational. In our research, we seek to examine whether the emotional vocabulary of political news stories can lead to their popularity, and if those patterns persist across different political groupings on Twitter. To do so, we construct a corpora of 2,650 news stories collected by scraping the websites of 13 different news organizations over 5 months. We then match these stories to all tweets that contain a link to them, resulting in 123,113 tweets by 20,964 Twitter users. By using automated content analysis based on the Harvard Inquirer lexicons, we code stories for their emotionality and positivity. We run regressions between the independent variables of story length, emotionality, and positivity and the dependent variable of number of shares across 7 different political divisions of Twitter users, as well as the collective dataset. On the whole, we find Twitter users to favor stories that are Hobbesian in nature: nasty (negative in positivity), brutish (high in emotionality), and short (low in word count). These patterns persist across political divides.
 
 \end{abstract}
 
@@ -390,7 +388,7 @@ In each case, we compare our findings to those using linear and Poisson regressi
 \cline{2-2} 
 \\[-1.8ex] & num\_tweets \\ 
 \hline \\[-1.8ex] 
- log(wc) & $-$0.088$^{***}$ \\ 
+ log(story length) & $-$0.088$^{***}$ \\ 
   & (0.017) \\ 
   & \\ 
  emotionality & 6.279$^{***}$ \\ 
@@ -399,7 +397,7 @@ In each case, we compare our findings to those using linear and Poisson regressi
  positivity & $-$5.978$^{***}$ \\ 
   & (2.013) \\ 
   & \\ 
- Constant & 4.296$^{***}$ \\ 
+ constant & 4.296$^{***}$ \\ 
   & (0.117) \\ 
   & \\ 
 \hline \\[-1.8ex] 
