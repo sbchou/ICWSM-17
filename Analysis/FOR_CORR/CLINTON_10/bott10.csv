@@ -1,0 +1,11 @@
+,url,num_tweets,wc,negativ_ct,positiv_ct,positiv_percent,negativ_percent,emotionality,positivity
+0,http://www.cnn.com/2016/02/27/politics/cher-aaron-carter-donald-trump-hitler/index.html,1,229,0,1,0.00436681222707,0.0,0.00436681222707,0.00436681222707
+1,http://www.cnn.com/2016/02/29/politics/erick-erickson-axe-files-david-axelrod/index.html,1,225,1,2,0.00888888888889,0.00444444444444,0.0133333333333,0.00444444444444
+2,http://www.politico.com/blogs/2016-gop-primary-live-updates-and-results/2016/02/donald-trump-interview-kkk-219953,1,693,10,4,0.00577200577201,0.01443001443,0.020202020202,-0.00865800865801
+3,http://www.huffingtonpost.com/seth-abramson/sanders-currently-winning-democratic-primary-race-ill-prove-to-you_b_9528076.html,1,1527,10,16,0.0104780615586,0.00654878847413,0.0170268500327,0.00392927308448
+4,http://www.politico.com/blogs/2016-dem-primary-live-updates-and-results/2016/03/hillary-clinton-benghazi-mother-wrong-220546,1,351,3,3,0.00854700854701,0.00854700854701,0.017094017094,0.0
+5,http://www.politico.com/story/2016/01/elizabeth-warren-jeb-bush-hank-greenberg-217507,1,440,4,3,0.00681818181818,0.00909090909091,0.0159090909091,-0.00227272727273
+6,http://blogs.wsj.com/washwire/2016/01/11/former-n-h-gov-sununu-trump-is-rich-but-not-bright/,1,463,6,8,0.0172786177106,0.0129589632829,0.0302375809935,0.00431965442765
+7,http://www.politico.com/blogs/2016-gop-primary-live-updates-and-results/2016/03/newt-gingrich-donald-trump-220031,1,361,1,5,0.0138504155125,0.00277008310249,0.016620498615,0.01108033241
+8,http://www.cnn.com/2016/02/18/politics/loren-spivack-republican-dr-seuss/index.html,1,115,0,3,0.0260869565217,0.0,0.0260869565217,0.0260869565217
+9,http://www.politico.com/blogs/2016-gop-primary-live-updates-and-results/2016/02/donald-trump-sabermetrics-bill-james-219731,1,526,1,4,0.00760456273764,0.00190114068441,0.00950570342205,0.00570342205323

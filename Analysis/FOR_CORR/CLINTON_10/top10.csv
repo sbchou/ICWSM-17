@@ -1,0 +1,11 @@
+,url,num_tweets,wc,negativ_ct,positiv_ct,positiv_percent,negativ_percent,emotionality,positivity
+0,http://www.politico.com/magazine/story/2016/01/donald-trump-2016-authoritarian-213533,115,1043,8,14,0.0134228187919,0.00767018216683,0.0210930009588,0.00575263662512
+1,http://www.politico.com/magazine/story/2016/01/bernie-sanders-hillary-clinton-2016-213560,74,1392,16,18,0.0129310344828,0.0114942528736,0.0244252873563,0.0014367816092
+2,http://www.politico.com/magazine/story/2016/01/ted-cruz-john-f-kennedy-213545,68,730,14,16,0.0219178082192,0.0191780821918,0.041095890411,0.0027397260274
+3,http://www.cnn.com/2016/01/27/politics/donald-trump-voters-2016-election/index.html,50,4360,39,44,0.0100917431193,0.00894495412844,0.0190366972477,0.00114678899083
+4,http://www.cnn.com/2016/01/27/politics/anne-frank-donald-trump-adolf-hitler/index.html,46,489,3,1,0.00204498977505,0.00613496932515,0.0081799591002,-0.0040899795501
+5,http://www.politico.com/story/2016/01/poll-hillary-clinton-trump-bernie-sanders-217963,42,519,3,3,0.00578034682081,0.00578034682081,0.0115606936416,0.0
+6,http://www.politico.com/story/2016/01/hillary-clinton-emails-lawsuits-dismissed-217581,34,670,4,8,0.0119402985075,0.00597014925373,0.0179104477612,0.00597014925373
+7,http://www.cnn.com/2016/01/02/middleeast/al-shabaab-video-trump/index.html,33,452,9,4,0.00884955752212,0.0199115044248,0.0287610619469,-0.0110619469027
+8,https://www.washingtonpost.com/news/the-fix/wp/2016/03/24/donald-trump-is-not-beating-hillary-clinton-in-the-polls-no-matter-how-many-times-he-says-it/,27,463,1,6,0.0129589632829,0.00215982721382,0.0151187904968,0.0107991360691
+9,http://www.politico.com/magazine/story/2016/01/donald-trump-2016-brand-business-213515,27,1237,8,22,0.0177849636217,0.00646725949879,0.0242522231205,0.0113177041229
