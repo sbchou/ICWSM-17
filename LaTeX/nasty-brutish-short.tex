@@ -37,7 +37,7 @@ What Makes Election News Popular on Twitter?}
 \maketitle
 \begin{abstract}
 
-During the 2016 U.S. presidential elections, social media played a large role in both the creation and propagation of stories. In particular, Twitter served as an important platform for the spread of news articles, which have significant influence on public opinion. Yet the sharing of content is often based on innate emotional triggers that are seldom rational. In our research, we seek to examine whether the emotional vocabulary of political news stories can lead to their popularity. If so, do those patterns persist across different political groupings on Twitter? To investigate our questions, we construct a corpus of 2,650 news stories collected by scraping the websites of 13 different news organizations over 5 months. We then match these stories to all tweets that contain a link to them, resulting in 123,113 tweets by 20,964 Twitter users. By using automated content analysis based on the Harvard Inquirer lexicons, we code stories for their emotionality and positivity. We run regressions between the independent variables of story length, emotionality, and positivity and the dependent variable of number of shares across 7 different political divisions of Twitter users, as well as the collective dataset. On the whole, we find Twitter users to favor stories that are Hobbesian in nature: nasty (negative in positivity), brutish (high in emotionality), and short (low in word count). These patterns persist across political divides.
+During the 2016 U.S. presidential elections, social media played a large role in both the creation and propagation of stories. In particular, Twitter served as an important platform for the spread of news articles, which have significant influence on public opinion. Yet the sharing of content is often based on innate emotional triggers that are seldom rational. In our research, we seek to examine whether the emotional vocabulary of political news stories can lead to their popularity. If so, do these findings persist across different political groupings on Twitter? To explore these questions, we construct a corpus of 2,650 news stories collected by scraping the websites of 13 different news organizations over 5 months. We then match these stories to all tweets that contain a link to them, resulting in 123,113 tweets by 20,964 Twitter users. Using the Harvard Inquirer lexicons, we automatically categorize the vocabulary in articles, coding stories for emotionality and positivity. We then run regressions between the independent variables of story length, emotionality, and positivity and the dependent variable of number of shares across 7 different political divisions of Twitter users, as well as the collective dataset. On the whole, we find Twitter users to favor stories that are Hobbesian in nature: nasty (negative in positivity), brutish (high in emotionality), and short (low in word count). These patterns persist across political divides.
 
 \end{abstract}
 
@@ -291,21 +291,22 @@ Trump's free media advantage becomes clear when looking at the \emph{volume} of 
 \begin{figure}[t!]  
 \centering 
   \includegraphics[width=\columnwidth]{tweets-by-candid}  
-  \caption{Most frequently mentioned candidate in stories
+  \caption{Number of tweets by candidate group
     \label{fig:tweets-by-candid}}
 \end{figure} 
 
-We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared.
+We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:users-tweets-by-candid}).
+ 
 
 %% Most popular mentioned candidate by ea. camp
-\begin{figure}[t!] 
+\begin{figure}[htbp!] 
 \centering 
- \includegraphics[width=0.49\columnwidth]{clinton-camp-shares}
- \includegraphics[width=0.49\columnwidth]{trump-camp-shares}  
- \includegraphics[width=0.49\columnwidth]{sanders-camp-shares}  
- \includegraphics[width=0.49\columnwidth]{cruz-camp-shares}  
+ \includegraphics[width=0.9\columnwidth]{clinton-camp-shares}
+ \includegraphics[width=0.9\columnwidth]{trump-camp-shares}  
+ \includegraphics[width=0.9\columnwidth]{sanders-camp-shares}  
+ \includegraphics[width=0.9\columnwidth]{cruz-camp-shares}  
   %\includegraphics[width=0.32\columnwidth]{location_study2} 
-  \caption{Tweet and User Counts by Followership
+  \caption{Most frequently mentioned candidate in stories, by group
     \label{fig:users-tweets-by-candid}}
 \end{figure}
  
@@ -319,22 +320,25 @@ We also observe the nature of the content being shared by each group. Again, acr
 % * Most mentioned candid in each camp
 
 
+
 \begin{figure}[t!]  
 \centering 
-  \includegraphics[width=1.0\columnwidth]{candid-ct}  
-  \caption{Number of candidates followed
-    \label{fig:candid-ct}}
+  \includegraphics[width=1.0\columnwidth]{users-vs-engagement}  
+  \caption{Number of users by level of political engagement
+    \label{fig:users-vs-engagement}}
+\end{figure}
+
+
+\begin{figure}[t!]  
+\centering 
+  \includegraphics[width=1.0\columnwidth]{tweet-ratio-vs-engagement}  
+  \caption{Tweets per user by level of political engagement
+    \label{fig:tweet-ratio-engagement}}
 \end{figure}
 
 36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. 
 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=1.0\columnwidth]{tweets-by-candid-ct}  
-  \caption{Ratio of Tweets to political candidates followed
-    \label{fig:candid-ct}}
-\end{figure}
 
 We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user.
 
