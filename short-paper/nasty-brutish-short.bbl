@@ -1,0 +1,116 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Barthel \bgroup et al\mbox.\egroup
+  }{2015}]{pew-Twitter-news}
+Barthel, M.; Shearer, E.; Gottfried, J.; and Mitchell, A.
+\newblock 2015.
+\newblock How do americans use twitter for news?
+\newblock Retrieved from \url{http://www.pewresearch.org}.
+\newblock (Accessed on 07/12/2016).
+
+\bibitem[\protect\citeauthoryear{Berger and Milkman}{2012}]{berger2012makes}
+Berger, J., and Milkman, K.~L.
+\newblock 2012.
+\newblock What makes online content viral?
+\newblock {\em Journal of marketing research} 49(2):192--205.
+
+\bibitem[\protect\citeauthoryear{Cogburn and
+  Espinoza-Vasquez}{2011}]{cogburn2011networked}
+Cogburn, D.~L., and Espinoza-Vasquez, F.~K.
+\newblock 2011.
+\newblock From networked nominee to networked nation: Examining the impact of
+  web 2.0 and social media on political participation and civic engagement in
+  the 2008 obama campaign.
+\newblock {\em Journal of Political Marketing} 10(1-2):189--213.
+
+\bibitem[\protect\citeauthoryear{Colleoni, Rozza, and
+  Arvidsson}{2014}]{colleoni2014echo}
+Colleoni, E.; Rozza, A.; and Arvidsson, A.
+\newblock 2014.
+\newblock Echo chamber or public sphere? predicting political orientation and
+  measuring political homophily in twitter using big data.
+\newblock {\em Journal of Communication} 64(2):317--332.
+
+\bibitem[\protect\citeauthoryear{Confessore and
+  Yourish}{2016}]{nyt-trump-free-media}
+Confessore, N., and Yourish, K.
+\newblock 2016.
+\newblock \$2 billion worth of free media for donald trump.
+\newblock Retrieved from \url{http://www.nytimes.com}.
+\newblock (Accessed on 07/12/2016).
+
+\bibitem[\protect\citeauthoryear{Goldhaber}{1997}]{goldhaber1997attention}
+Goldhaber, M.~H.
+\newblock 1997.
+\newblock The attention economy and the net.
+\newblock {\em First Monday} 2(4).
+
+\bibitem[\protect\citeauthoryear{Gottfried}{2016}]{election-fatigue}
+Gottfried, J.
+\newblock 2016.
+\newblock Most americans already feel election coverage fatigue.
+\newblock Retrieved from \url{http://www.pewresearch.org}.
+\newblock (Accessed on 07/16/2016).
+
+\bibitem[\protect\citeauthoryear{Mitchell and
+  Hitlin}{2013}]{mitchell2013twitter}
+Mitchell, A., and Hitlin, P.
+\newblock 2013.
+\newblock Twitter reaction to events often at odds with overall public opinion.
+\newblock {\em Pew Research Center} 4.
+
+\bibitem[\protect\citeauthoryear{Mitchell \bgroup et al\mbox.\egroup
+  }{2014}]{PoliticalPolarization}
+Mitchell, A.; Gottfried, J.; Kiley, J.; and Matsa, K.~E.
+\newblock 2014.
+\newblock Political polarization \& media habits.
+\newblock {\em Pew Research Center}.
+\newblock (Accessed on 04/02/2016).
+
+\bibitem[\protect\citeauthoryear{O’hara and Kotze}{2010}]{o2010not}
+O’hara, R.~B., and Kotze, D.~J.
+\newblock 2010.
+\newblock Do not log-transform count data.
+\newblock {\em Methods in Ecology and Evolution} 1(2):118--122.
+
+\bibitem[\protect\citeauthoryear{Scott~Long}{1997}]{scott1997regression}
+Scott~Long, J.
+\newblock 1997.
+\newblock Regression models for categorical and limited dependent variables.
+\newblock {\em Advanced quantitative techniques in the social sciences} 7.
+
+\bibitem[\protect\citeauthoryear{Stone and Hunt}{1963}]{stone1963computer}
+Stone, P.~J., and Hunt, E.~B.
+\newblock 1963.
+\newblock A computer approach to content analysis: studies using the general
+  inquirer system.
+\newblock In {\em Proceedings of the May 21-23, 1963, spring joint computer
+  conference},  241--256.
+\newblock ACM.
+
+\bibitem[\protect\citeauthoryear{Suler}{2004}]{suler2004online}
+Suler, J.
+\newblock 2004.
+\newblock The online disinhibition effect.
+\newblock {\em Cyberpsychology \& behavior} 7(3):321--326.
+
+\bibitem[\protect\citeauthoryear{Tange and others}{2011}]{tange2011gnu}
+Tange, O., et~al.
+\newblock 2011.
+\newblock Gnu parallel-the command-line power tool.
+\newblock {\em The USENIX Magazine} 36(1):42--47.
+
+\bibitem[\protect\citeauthoryear{Vijayaraghavan, Vosoughi, and
+  Roy}{2016}]{vvr_electome2016}
+Vijayaraghavan, P.; Vosoughi, S.; and Roy, D.
+\newblock 2016.
+\newblock Automatic detection and categorization of election-related tweets.
+\newblock In {\em 10th International AAAI Conference on Web and Social Media}.
+
+\bibitem[\protect\citeauthoryear{Vijayaraghavan}{2016}]{vijayaraghavan-thesis}
+Vijayaraghavan, P.
+\newblock 2016.
+\newblock {Automatic Identification of Representative Content on Twitter}.
+\newblock Master's thesis, Massachusetts Institute of Technology.
+
+\end{thebibliography}

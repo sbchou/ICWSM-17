@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: nasty-brutish-short.aux
+The style file: aaai.bst
+Database file #1: nasty-brutish-short.bib
+You've used 16 entries,
+            2568 wiz_defined-function locations,
+            672 strings with 7305 characters,
+and the built_in function-call counts, 5758 in all, are:
+= -- 634
+> -- 208
+< -- 1
++ -- 69
+- -- 66
+* -- 439
+:= -- 966
+add.period$ -- 85
+call.type$ -- 16
+change.case$ -- 96
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 218
+empty$ -- 408
+format.name$ -- 93
+if$ -- 1165
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 104
+num.names$ -- 48
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 112
+quote$ -- 0
+skip$ -- 183
+stack$ -- 0
+substring$ -- 259
+swap$ -- 40
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 128
+warning$ -- 0
+while$ -- 47
+width$ -- 19
+write$ -- 231
