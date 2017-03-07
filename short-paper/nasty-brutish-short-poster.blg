@@ -5,42 +5,42 @@ The style file: aaai.bst
 Database file #1: nasty-brutish-short-poster.bib
 You've used 16 entries,
             2568 wiz_defined-function locations,
-            672 strings with 7319 characters,
-and the built_in function-call counts, 5758 in all, are:
-= -- 634
-> -- 208
-< -- 1
-+ -- 69
-- -- 66
-* -- 439
-:= -- 966
-add.period$ -- 85
+            674 strings with 7382 characters,
+and the built_in function-call counts, 6033 in all, are:
+= -- 665
+> -- 223
+< -- 2
++ -- 75
+- -- 72
+* -- 462
+:= -- 1004
+add.period$ -- 86
 call.type$ -- 16
-change.case$ -- 96
+change.case$ -- 99
 chr.to.int$ -- 16
 cite$ -- 16
-duplicate$ -- 218
-empty$ -- 408
-format.name$ -- 93
-if$ -- 1165
+duplicate$ -- 232
+empty$ -- 425
+format.name$ -- 98
+if$ -- 1230
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
+missing$ -- 13
 newline$ -- 104
 num.names$ -- 48
-pop$ -- 76
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 115
 quote$ -- 0
-skip$ -- 183
+skip$ -- 192
 stack$ -- 0
-substring$ -- 259
-swap$ -- 40
-text.length$ -- 1
+substring$ -- 283
+swap$ -- 47
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 128
 warning$ -- 0
-while$ -- 47
+while$ -- 50
 width$ -- 19
-write$ -- 231
+write$ -- 232

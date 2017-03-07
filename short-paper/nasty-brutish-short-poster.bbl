@@ -31,14 +31,6 @@ Colleoni, E.; Rozza, A.; and Arvidsson, A.
   measuring political homophily in twitter using big data.
 \newblock {\em Journal of Communication} 64(2):317--332.
 
-\bibitem[\protect\citeauthoryear{Confessore and
-  Yourish}{2016}]{nyt-trump-free-media}
-Confessore, N., and Yourish, K.
-\newblock 2016.
-\newblock \$2 billion worth of free media for donald trump.
-\newblock Retrieved from \url{http://www.nytimes.com}.
-\newblock (Accessed on 07/12/2016).
-
 \bibitem[\protect\citeauthoryear{Goldhaber}{1997}]{goldhaber1997attention}
 Goldhaber, M.~H.
 \newblock 1997.
@@ -51,6 +43,14 @@ Gottfried, J.
 \newblock Most americans already feel election coverage fatigue.
 \newblock Retrieved from \url{http://www.pewresearch.org}.
 \newblock (Accessed on 07/16/2016).
+
+\bibitem[\protect\citeauthoryear{Hansen \bgroup et al\mbox.\egroup
+  }{2011}]{hansen2011good}
+Hansen, L.~K.; Arvidsson, A.; Nielsen, F.~{\AA}.; Colleoni, E.; and Etter, M.
+\newblock 2011.
+\newblock Good friends, bad news-affect and virality in twitter.
+\newblock In {\em Future information technology}. Springer.
+\newblock  34--43.
 
 \bibitem[\protect\citeauthoryear{Mitchell and
   Hitlin}{2013}]{mitchell2013twitter}
