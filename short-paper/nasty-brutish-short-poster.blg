@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: nasty-brutish-short-poster.aux
 The style file: aaai.bst
 Database file #1: nasty-brutish-short-poster.bib
-You've used 15 entries,
+You've used 16 entries,
             2568 wiz_defined-function locations,
-            669 strings with 7399 characters,
-and the built_in function-call counts, 5775 in all, are:
-= -- 636
-> -- 222
+            676 strings with 7582 characters,
+and the built_in function-call counts, 6095 in all, are:
+= -- 671
+> -- 235
 < -- 2
-+ -- 75
-- -- 72
-* -- 452
-:= -- 961
-add.period$ -- 80
-call.type$ -- 15
-change.case$ -- 95
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 222
-empty$ -- 399
-format.name$ -- 98
-if$ -- 1175
++ -- 79
+- -- 76
+* -- 472
+:= -- 1014
+add.period$ -- 86
+call.type$ -- 16
+change.case$ -- 101
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 232
+empty$ -- 423
+format.name$ -- 104
+if$ -- 1242
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 13
-newline$ -- 97
-num.names$ -- 45
-pop$ -- 70
+newline$ -- 104
+num.names$ -- 48
+pop$ -- 79
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 117
 quote$ -- 0
-skip$ -- 182
+skip$ -- 192
 stack$ -- 0
-substring$ -- 272
-swap$ -- 45
+substring$ -- 277
+swap$ -- 47
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
+type$ -- 128
 warning$ -- 0
-while$ -- 48
-width$ -- 18
-write$ -- 217
+while$ -- 50
+width$ -- 19
+write$ -- 232
