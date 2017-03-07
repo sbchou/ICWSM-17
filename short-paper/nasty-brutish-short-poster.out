@@ -1,22 +1,19 @@
 \BOOKMARK [1][-]{section*.1}{Introduction}{}% 1
 \BOOKMARK [2][-]{section*.2}{Hypotheses}{section*.1}% 2
 \BOOKMARK [1][-]{section*.3}{Literature Review}{}% 3
-\BOOKMARK [2][-]{section*.4}{The \(Short\) Attention Economy}{section*.3}% 4
-\BOOKMARK [2][-]{section*.5}{Negativity in Politics and Online}{section*.3}% 5
-\BOOKMARK [2][-]{section*.6}{Emotionality}{section*.3}% 6
-\BOOKMARK [1][-]{section*.7}{Data Collection}{}% 7
-\BOOKMARK [2][-]{section*.8}{News Dataset}{section*.7}% 8
-\BOOKMARK [2][-]{section*.9}{Tweets Dataset}{section*.7}% 9
-\BOOKMARK [2][-]{section*.10}{Combined Dataset}{section*.7}% 10
-\BOOKMARK [2][-]{section*.11}{Final Corpus}{section*.7}% 11
-\BOOKMARK [1][-]{section*.13}{Measuring Political and Emotional Engagement}{}% 12
-\BOOKMARK [2][-]{section*.14}{Emotional Coding}{section*.13}% 13
-\BOOKMARK [2][-]{section*.15}{Followership as a Proxy for Political Engagement}{section*.13}% 14
-\BOOKMARK [2][-]{section*.17}{Political Engagement}{section*.13}% 15
-\BOOKMARK [1][-]{section*.18}{Analysis}{}% 16
-\BOOKMARK [2][-]{section*.19}{Methodology}{section*.18}% 17
-\BOOKMARK [2][-]{section*.20}{All Data}{section*.18}% 18
-\BOOKMARK [2][-]{section*.24}{By Degree of Political Engagement}{section*.18}% 19
-\BOOKMARK [2][-]{section*.25}{By Candidate}{section*.18}% 20
-\BOOKMARK [1][-]{section*.26}{Conclusion}{}% 21
-\BOOKMARK [1][-]{section*.27}{Limitations \046 Future Work}{}% 22
+\BOOKMARK [1][-]{section*.4}{Data Collection}{}% 4
+\BOOKMARK [2][-]{section*.5}{News Dataset}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{Tweets Dataset}{section*.4}% 6
+\BOOKMARK [2][-]{section*.7}{Combined Dataset}{section*.4}% 7
+\BOOKMARK [2][-]{section*.8}{Final Corpus}{section*.4}% 8
+\BOOKMARK [1][-]{section*.10}{Measuring Political and Emotional Engagement}{}% 9
+\BOOKMARK [2][-]{section*.11}{Emotional Coding}{section*.10}% 10
+\BOOKMARK [2][-]{section*.12}{Followership as a Proxy for Political Engagement}{section*.10}% 11
+\BOOKMARK [2][-]{section*.14}{Political Engagement}{section*.10}% 12
+\BOOKMARK [1][-]{section*.15}{Analysis}{}% 13
+\BOOKMARK [2][-]{section*.16}{Methodology}{section*.15}% 14
+\BOOKMARK [2][-]{section*.17}{All Data}{section*.15}% 15
+\BOOKMARK [2][-]{section*.21}{By Degree of Political Engagement}{section*.15}% 16
+\BOOKMARK [2][-]{section*.22}{By Candidate}{section*.15}% 17
+\BOOKMARK [1][-]{section*.23}{Conclusion}{}% 18
+\BOOKMARK [1][-]{section*.24}{Limitations \046 Future Work}{}% 19

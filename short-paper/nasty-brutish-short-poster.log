@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAR 2017 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAR 2017 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,33 +361,51 @@ Underfull \hbox (badness 1033) in paragraph at lines 89--90
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 
-[2] <images/story-share-dist.png, id=139, 750.805pt x 515.9275pt>
+[2] <images/story-share-dist.png, id=127, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
-Package pdftex.def Info: images/story-share-dist.png used on input line 187.
+Package pdftex.def Info: images/story-share-dist.png used on input line 193.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-<images/all-stories-by-pub.png, id=141, 750.805pt x 515.9275pt>
+<images/all-stories-by-pub.png, id=129, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
-Package pdftex.def Info: images/all-stories-by-pub.png used on input line 201.
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 207.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-<images/top-10-stories.png, id=142, 584.1825pt x 224.84pt>
+<images/top-10-stories.png, id=130, 584.1825pt x 224.84pt>
 File: images/top-10-stories.png Graphic file (type png)
 
 <use images/top-10-stories.png>
-Package pdftex.def Info: images/top-10-stories.png used on input line 214.
+Package pdftex.def Info: images/top-10-stories.png used on input line 220.
 (pdftex.def)             Requested size: 239.39438pt x 92.13696pt.
 
-<images/candidate-mentions.png, id=143, 750.805pt x 515.9275pt>
+<images/candidate-mentions.png, id=131, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
-Package pdftex.def Info: images/candidate-mentions.png used on input line 244.
+Package pdftex.def Info: images/candidate-mentions.png used on input line 250.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -398,69 +416,69 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 4036) in paragraph at lines 285--286
+Underfull \hbox (badness 4036) in paragraph at lines 291--292
  []\OT1/ptm/b/n/10 Candidate Fol-low-er-ship[] \OT1/ptm/m/n/10 Our dataset con-
 tains 6,406
  []
 
-<images/users-by-candid.png, id=161, 750.805pt x 515.9275pt>
+<images/users-by-candid.png, id=149, 750.805pt x 515.9275pt>
 File: images/users-by-candid.png Graphic file (type png)
 
 <use images/users-by-candid.png>
-Package pdftex.def Info: images/users-by-candid.png used on input line 290.
+Package pdftex.def Info: images/users-by-candid.png used on input line 296.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-<images/tweets-by-candid.png, id=162, 750.805pt x 515.9275pt>
+<images/tweets-by-candid.png, id=150, 750.805pt x 515.9275pt>
 File: images/tweets-by-candid.png Graphic file (type png)
 
 <use images/tweets-by-candid.png>
-Package pdftex.def Info: images/tweets-by-candid.png used on input line 301.
+Package pdftex.def Info: images/tweets-by-candid.png used on input line 307.
 (pdftex.def)             Requested size: 239.39438pt x 164.50186pt.
 
-<images/clinton-camp-shares.png, id=164, 750.805pt x 515.9275pt>
+<images/clinton-camp-shares.png, id=152, 750.805pt x 515.9275pt>
 File: images/clinton-camp-shares.png Graphic file (type png)
 
 <use images/clinton-camp-shares.png>
-Package pdftex.def Info: images/clinton-camp-shares.png used on input line 312.
+Package pdftex.def Info: images/clinton-camp-shares.png used on input line 318.
 
 (pdftex.def)             Requested size: 215.45348pt x 148.04852pt.
 
-<images/trump-camp-shares.png, id=165, 750.805pt x 515.9275pt>
+<images/trump-camp-shares.png, id=153, 750.805pt x 515.9275pt>
 File: images/trump-camp-shares.png Graphic file (type png)
 
 <use images/trump-camp-shares.png>
-Package pdftex.def Info: images/trump-camp-shares.png used on input line 313.
+Package pdftex.def Info: images/trump-camp-shares.png used on input line 319.
 (pdftex.def)             Requested size: 215.45348pt x 148.04852pt.
 
-<images/sanders-camp-shares.png, id=166, 750.805pt x 515.9275pt>
+<images/sanders-camp-shares.png, id=154, 750.805pt x 515.9275pt>
 File: images/sanders-camp-shares.png Graphic file (type png)
 
 <use images/sanders-camp-shares.png>
-Package pdftex.def Info: images/sanders-camp-shares.png used on input line 314.
+Package pdftex.def Info: images/sanders-camp-shares.png used on input line 320.
 
 (pdftex.def)             Requested size: 215.45348pt x 148.04852pt.
 
-<images/cruz-camp-shares.png, id=167, 750.805pt x 515.9275pt>
+<images/cruz-camp-shares.png, id=155, 750.805pt x 515.9275pt>
 File: images/cruz-camp-shares.png Graphic file (type png)
 
 <use images/cruz-camp-shares.png>
-Package pdftex.def Info: images/cruz-camp-shares.png used on input line 315.
+Package pdftex.def Info: images/cruz-camp-shares.png used on input line 321.
 (pdftex.def)             Requested size: 215.45348pt x 148.04852pt.
 
-<images/users-vs-engagement.png, id=168, 592.2125pt x 391.4625pt>
+<images/users-vs-engagement.png, id=156, 592.2125pt x 391.4625pt>
 File: images/users-vs-engagement.png Graphic file (type png)
 
 <use images/users-vs-engagement.png>
-Package pdftex.def Info: images/users-vs-engagement.png used on input line 334.
+Package pdftex.def Info: images/users-vs-engagement.png used on input line 340.
 
 (pdftex.def)             Requested size: 239.39438pt x 158.24277pt.
 
-<images/tweet-ratio-vs-engagement.png, id=169, 626.34pt x 484.81125pt>
+<images/tweet-ratio-vs-engagement.png, id=157, 626.34pt x 484.81125pt>
 File: images/tweet-ratio-vs-engagement.png Graphic file (type png)
 
 <use images/tweet-ratio-vs-engagement.png>
 Package pdftex.def Info: images/tweet-ratio-vs-engagement.png used on input lin
-e 342.
+e 348.
 (pdftex.def)             Requested size: 239.39438pt x 185.30284pt.
  [4 <./images/users-by-candid.png> <./images/tweets-by-candid.png>]
 Missing character: There is no â in font ptmr7t!
@@ -488,37 +506,37 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 []\OT1/ptm/m/n/10 Vijayaraghavan,
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 105--109
+Underfull \hbox (badness 1137) in paragraph at lines 99--103
 \OT1/ptm/m/n/10 and cat-e-go-riza-tion of election-related tweets.  In \OT1/ptm
 /m/it/10 10th
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 707.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 713.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 707.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 713.
  (./nasty-brutish-short-poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 707.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 707.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 713.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 713.
 Package rerunfilecheck Info: File `nasty-brutish-short-poster.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 64746107F466DAEC48DF239B0AAACEBC;1397.
+(rerunfilecheck)             Checksum: 0DDC246F14F30A1F672E290BE4F67254;1178.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 707.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 713.
  ) 
 Here is how much of TeX's memory you used:
- 5965 strings out of 493014
- 88938 string characters out of 6133351
- 185577 words of memory out of 5000000
- 9376 multiletter control sequences out of 15000+600000
+ 5957 strings out of 493014
+ 88838 string characters out of 6133351
+ 185538 words of memory out of 5000000
+ 9372 multiletter control sequences out of 15000+600000
  17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,11n,35p,1357b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -532,10 +550,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on nasty-brutish-short-poster.pdf (7 pages, 772124 bytes).
+Output written on nasty-brutish-short-poster.pdf (7 pages, 771025 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
