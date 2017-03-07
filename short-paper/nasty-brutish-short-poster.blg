@@ -1,11 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: nasty-brutish-short.aux
+The top-level auxiliary file: nasty-brutish-short-poster.aux
 The style file: aaai.bst
-Database file #1: nasty-brutish-short.bib
+Database file #1: nasty-brutish-short-poster.bib
 You've used 16 entries,
             2568 wiz_defined-function locations,
-            672 strings with 7305 characters,
+            672 strings with 7319 characters,
 and the built_in function-call counts, 5758 in all, are:
 = -- 634
 > -- 208
