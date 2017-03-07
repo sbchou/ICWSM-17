@@ -75,12 +75,10 @@ We ask the following question in our research:
 \item Does the emotional vocabulary of political news stories have an impact on its Twitter popularity that persists beyond political affiliation?  
 \end{itemize}
 
-To test this question, we focus on three key aspects of stories: length, emotionality, and positivity. We choose these three aspects based on behavioral theories of the Internet and studies of political news, detailed in the section below.  
-
-We hypothesize the following behavior in our dataset of stories and tweets:
+To test this question, we focus on three key aspects of stories: length, emotionality, and positivity. We choose these three aspects based on behavioral theories of the internet and studies of political news, detailed in the section below. We hypothesize the following behavior in our dataset of stories and tweets:
 
 \begin{itemize} 
-    \item \textbf{H1:} Story length has a \emph{negative} correlation with Twitter shares, due to the effects of the Internet attention economy and overexposure to political media \cite{goldhaber1997attention}.
+    \item \textbf{H1:} Story length has a \emph{negative} correlation with Twitter shares, due to the effects of the internet attention economy and overexposure to political media \cite{goldhaber1997attention}.
     \item \textbf{H2:} Emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
     \item \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news \cite{berger2012makes, hansen2011good}.
 
@@ -88,28 +86,24 @@ We hypothesize the following behavior in our dataset of stories and tweets:
 
 For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement), to look for differences amongst different populations of political tweeters.
 
-
 \section{Literature Review}  
 
 For several decades, there has been an assumption that the kind of emotion a story evokes has a significant impact on the likelihood for it to be well-received. Yet defining that connection, and quantifying the type of emotion that matters, remains open-ended.
 
-In Galtung and Ruge's classic study of news values, negativity is proposed as a positive attribute for news stories. In other words, ``bad news is more newsworthy than good news'' \cite{galtung1965structure}. However, more recently, Berger and Milkman’s study of stories from the New York Times found that positive content was more likely to make the most-emailed list than negative content \cite{berger2012makes}. The results of Hansen et. al’s research, which focuses on Twitter, counters that finding, showing that negativity is a boon in news stories’ popularity-- yet positivity is more likely to lead retweets overall \cite{hansen2011good}.
+In Galtung and Ruge's seminal work on news values, negativity is proposed as a positive attribute for news stories. In other words, ``bad news is more newsworthy than good news'' \cite{galtung1965structure}. However, more recently, Berger and Milkman’s study of stories from the New York Times found that positive content was more likely to make the most-emailed list than negative content \cite{berger2012makes}. The results of Hansen et. al’s research, which focuses on Twitter, counters that finding, showing that negativity is a boon in news stories’ popularity -- yet positivity is more likely to lead retweets overall \cite{hansen2011good}.
 
-Political news, however, is a unique category of news, and this election in particular– where one-in- four Americans report disliking the presidential candidates– appears to have a negative overtone. In a study of responses to the 2012 election campaign on Twitter, it was found that for both candidates, the majority of tweets were far more negative in tone than positive \cite{mitchell2013twitter}.
+Political news, however, is a unique category of news, and this election in particular -– where one-in-four Americans report disliking the presidential candidates -– appears to have a negative overtone \cite{dislike-candidates}. In a study of responses to the 2012 election campaign on Twitter, it was found that for both candidates, the majority of tweets were far more negative in tone than positive \cite{mitchell2013twitter}.
     
-To compare the sharing of election news stories versus patterns of general virality in the news, and to examine the extent in which negative sentiment is popular, we calculate the negativity of stories, and how that relates to Twitter behavior.
-					 		
-We also examine the effects of the degree of combined emotionality in the content and how that relates to Twitter shares, to see if either more positive or more negative content is more likely to be shared overall than content that ranks low in emotionality. Although positive content was found to be more popular than negative content in the sharing of stories, both highly positive and highly negative content was more likely to become viral, and we expect the same to hold for political news (Berger and Milkman 2012). 
+To compare the sharing of election news stories on Twitter versus patterns of general virality in the news, we calculate the negativity of stories, and how that relates to popularity. We also examine the effects of the degree of combined emotionality in the content. In Berger and Milkman's study, both highly positive and highly negative content were more likely to become viral than stories of low emotional valence, and we expect the same to hold for political news \cite{berger2012makes}. 
 
-
-In addition, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox –- between the ease of accessibility to information and the increasingly limited bandwidth of consumers -- is described as one of the challenges of being in an attention economy \cite{goldhaber1997attention}. High-impact events like the presidential elections intensify this effect –- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 (Gottfried 2016). To explore the effects of the attention economy on the reading of political news, we examine story length and how it relates to sharing popularity.
+Finally, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox –- between the ease of accessibility to information and the increasingly limited bandwidth of consumers -- is described as one of the challenges of being in an attention economy \cite{goldhaber1997attention}. High-impact events like the presidential elections intensify this effect –- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 (Gottfried 2016). To explore the effects of the attention economy on the reading of political news, we examine story length and how it relates to sharing popularity.
 
 
 
 
 % Although social media has the power to create a flood of free advertising and media for political candidates, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox-- between the ease of accessibility to information and the increasingly limited bandwidth of consumers-- is described as one of the challenges of being in an \emph{attention economy} \cite{goldhaber1997attention}. Moreover, high-impact events like the presidential elections especially intensify this effect-- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 \cite{election-fatigue}. To explore the effects of the attention economy on the reading of political news, we examine story length and how it relates to sharing popularity in the analysis to follow.
  
-% In addition, the option of anonymity and pseudo-anonymity on a social network like Twitter (along with other traits of Internet communication), is theorized to contribute to increased negative and hostile behavior, potentially increasing tension for the already-fraught subject of politics. This phenomenon is coined as the \emph{online disinhibition effect} \cite{suler2004online}. 
+% In addition, the option of anonymity and pseudo-anonymity on a social network like Twitter (along with other traits of internet communication), is theorized to contribute to increased negative and hostile behavior, potentially increasing tension for the already-fraught subject of politics. This phenomenon is coined as the \emph{online disinhibition effect} \cite{suler2004online}. 
 
 % In Berger and Milkman’s study of story virality, it was found that \emph{positive} content was more likely to be shared than negative content-- against conventional belief \cite{berger2012makes}. Political news, however, is a unique category of news, and this election in particular-- where one-in-four Americans report disliking the presidential candidates-- appears to have a negative overtone. In a study of responses to the 2012 election campaign on Twitter, it was found that for both candidates, the majority of tweets were far more negative in tone than positive \cite{mitchell2013twitter}.
 
@@ -126,26 +120,7 @@ In addition, the abundance of information on the web has created new challenges 
 
 \subsection{News Dataset}
 
- For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications:
-%\newpage % i have to force a newpage (column) here or else it leaves a big blank.
-\begin{multicols}{2}
-\begin{itemize}
-
-\item CNN
-\item Fox News
-\item The New York Times
-\item The Wall Street Journal
-\item The Washington Post
-\item The Los Angeles Times 
-\item The Associated Press
-\item Reuters
-\item McClatchy 
-\item Politico 
-\item Buzzfeed
-\item The Huffington Post
-\item NPR 
-\end{itemize}
-\end{multicols}
+ For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications: CNN, Fox News, the New York Times, The Wall Street Journal, The Washington Post, The Los Angeles Times, The Associated Press, Reuters, McClatchy, Politico, Buzzfeed, The Huffington Post, and NPR.
 
 The choices above span a mix of publications. We include sources that: 
 
@@ -178,11 +153,7 @@ The final step of our data collection process is to extract, expand and connect 
  
 Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use regular expressions to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
 
-\subsection{Final Corpus}
-
-In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets.
-
-This left a total of 2,650 distinct articles (38\%) shared in 123,113 (89\%) tweets by 20,956 Twitter users (93\%).
+In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets. This left a total of 2,650 distinct articles (38\%) shared in 123,113 (89\%) tweets by 20,956 Twitter users (93\%).
 
 \subsubsection{Descriptive Findings}
 %Of the 2,658 articles shared 123,133 times on Twitter that we track in our studies, the vast majority are shared less than 100 times. 
@@ -298,7 +269,6 @@ Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only fol
     \label{fig:users-by-candid}}
 \end{figure} 
 
- 
 
 Trump's free media advantage becomes clear when looking at the \emph{volume} of tweets each group of users tweet: 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz.
 
@@ -682,7 +652,7 @@ We find that, on the whole:
     \item Stories that are less positive are more likely to be shared on Twitter (\textbf{H3})
 \end{itemize}
 
-These results confirm our expectations of reader attention on the Internet, the emotional nature of content virality, and the negative connotation of political media. 
+These results confirm our expectations of reader attention on the internet, the emotional nature of content virality, and the negative connotation of political media. 
 
 We were able to see small but significant differences in the number of political candidates a user followed and the length of the stories that were likely to be shared, suggesting differing degrees of political involvement. However, we were unable to find many significant differences between segments by specific political candidates that users followed. 
 
