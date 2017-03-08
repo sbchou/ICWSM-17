@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 MAR 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 MAR 2017 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,21 +280,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./breakcites.sty) (./nasty-brutish-short-poster.aux)
 \openout1 = `nasty-brutish-short-poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -332,7 +332,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -342,37 +342,37 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./nasty-brutish-short-poster.out) (./nasty-brutish-short-poster.out)
 \@outlinefile=\write3
 \openout3 = `nasty-brutish-short-poster.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 45.
+(Font)              <5> on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 44.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
 
-Underfull \hbox (badness 1033) in paragraph at lines 88--89
+Underfull \hbox (badness 1033) in paragraph at lines 87--88
 []\OT1/ptm/m/n/10 For each of these three in-de-pen-dent vari-ables (story
  []
 
@@ -392,31 +392,31 @@ Missing character: There is no ™ in font ptmr7t!
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
-Package pdftex.def Info: images/story-share-dist.png used on input line 144.
+Package pdftex.def Info: images/story-share-dist.png used on input line 143.
 (pdftex.def)             Requested size: 191.51622pt x 131.60306pt.
 
 <images/top-10-stories.png, id=130, 584.1825pt x 224.84pt>
 File: images/top-10-stories.png Graphic file (type png)
 
 <use images/top-10-stories.png>
-Package pdftex.def Info: images/top-10-stories.png used on input line 145.
+Package pdftex.def Info: images/top-10-stories.png used on input line 144.
 (pdftex.def)             Requested size: 191.51622pt x 73.71025pt.
 
 <images/all-stories-by-pub.png, id=131, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
-Package pdftex.def Info: images/all-stories-by-pub.png used on input line 146.
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 145.
 (pdftex.def)             Requested size: 191.51622pt x 131.60306pt.
 
 <images/candidate-mentions.png, id=132, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
-Package pdftex.def Info: images/candidate-mentions.png used on input line 147.
+Package pdftex.def Info: images/candidate-mentions.png used on input line 146.
 (pdftex.def)             Requested size: 191.51622pt x 131.60306pt.
 
-Underfull \hbox (badness 1142) in paragraph at lines 194--195
+Underfull \hbox (badness 1142) in paragraph at lines 193--194
 \OT1/ptm/m/n/10 tions, a set of 1,915 well-established words sig-ni-fy-ing
  []
 
@@ -424,17 +424,17 @@ Underfull \hbox (badness 1142) in paragraph at lines 194--195
 File: images/users-by-candid.png Graphic file (type png)
 
 <use images/users-by-candid.png>
-Package pdftex.def Info: images/users-by-candid.png used on input line 224.
+Package pdftex.def Info: images/users-by-candid.png used on input line 223.
 (pdftex.def)             Requested size: 191.51622pt x 131.60306pt.
 
 <images/tweets-by-candid.png, id=138, 750.805pt x 515.9275pt>
 File: images/tweets-by-candid.png Graphic file (type png)
 
 <use images/tweets-by-candid.png>
-Package pdftex.def Info: images/tweets-by-candid.png used on input line 231.
+Package pdftex.def Info: images/tweets-by-candid.png used on input line 230.
 (pdftex.def)             Requested size: 191.51622pt x 131.60306pt.
 
-Underfull \hbox (badness 4036) in paragraph at lines 237--238
+Underfull \hbox (badness 4036) in paragraph at lines 236--237
  []\OT1/ptm/b/n/10 Candidate Fol-low-er-ship[] \OT1/ptm/m/n/10 Our dataset con-
 tains 6,406
  []
@@ -446,14 +446,14 @@ File: images/who-shares-stories-about.png Graphic file (type png)
 
 <use images/who-shares-stories-about.png>
 Package pdftex.def Info: images/who-shares-stories-about.png used on input line
- 283.
+ 282.
 (pdftex.def)             Requested size: 239.39438pt x 196.26192pt.
 
 <images/users-vs-engagement.png, id=158, 592.2125pt x 391.4625pt>
 File: images/users-vs-engagement.png Graphic file (type png)
 
 <use images/users-vs-engagement.png>
-Package pdftex.def Info: images/users-vs-engagement.png used on input line 299.
+Package pdftex.def Info: images/users-vs-engagement.png used on input line 298.
 
 (pdftex.def)             Requested size: 191.51622pt x 126.5966pt.
 
@@ -462,7 +462,7 @@ File: images/tweet-ratio-vs-engagement.png Graphic file (type png)
 
 <use images/tweet-ratio-vs-engagement.png>
 Package pdftex.def Info: images/tweet-ratio-vs-engagement.png used on input lin
-e 307.
+e 306.
 (pdftex.def)             Requested size: 191.51622pt x 148.24078pt.
 
 Underfull \vbox (badness 2582) has occurred while \output is active []
@@ -507,16 +507,16 @@ Underfull \hbox (badness 1137) in paragraph at lines 106--110
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
  (./nasty-brutish-short-poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 420.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 419.
 Package rerunfilecheck Info: File `nasty-brutish-short-poster.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 73D224831914101D313CE932591DFF9B;1118.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
  7007 strings out of 493014
