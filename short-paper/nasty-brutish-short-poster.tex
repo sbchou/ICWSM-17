@@ -9,6 +9,7 @@
 \usepackage{multicol}
 \usepackage{array}
 \usepackage{xcolor}
+\usepackage{subcaption}
 
 \usepackage{graphicx}
 \graphicspath{ {images/} }
@@ -136,40 +137,56 @@ Twitter automatically formats all links into a shortened ``t.co'' format, so we 
 In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets. This left a total of 2,650 distinct articles shared in 123,113 tweets by 20,956 Twitter users.
 
 \subsubsection{Descriptive Findings}
-Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times. 
+Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times.
 
-\begin{figure}[t!]  
+\begin{figure}[t!]
 \centering 
-  \includegraphics[width=\columnwidth]{all-stories-by-pub}  
+  \includegraphics[width=0.8\columnwidth]{story-share-dist}   
+  \includegraphics[width=0.8\columnwidth]{top-10-stories} 
+  \includegraphics[width=0.8\columnwidth]{all-stories-by-pub} 
+  \includegraphics[width=0.8\columnwidth]{candidate-mentions}  
   \caption{Number of story shares by publication
     \label{fig:shares-by-pub}}
 \end{figure} 
+
+% \begin{figure}[t!]
+% \centering 
+%   \includegraphics[width=0.8\columnwidth]{story-share-dist}  
+%   \caption{Distribution of Story Shares
+%     \label{fig:story-share-dist}}
+% \end{figure} 
+
+
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=0.8\columnwidth]{all-stories-by-pub}  
+%   \caption{Number of story shares by publication
+%     \label{fig:shares-by-pub}}
+% \end{figure} 
 
 
 CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (figure \ref{fig:shares-by-pub}).  
 % Because our data pipeline detailed in the previous section looks for election-related news, outlets which focus on political news are more likely to show up in our results.
 %\newpage %force table to get on the next page
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=\columnwidth]{top-10-stories}  
-  \caption{Top 10 Most Shared Articles
-    \label{fig:top-10-stories}}
-\end{figure} 
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=0.8\columnwidth]{top-10-stories}  
+%   \caption{Top 10 Most Shared Articles
+%     \label{fig:top-10-stories}}
+% \end{figure} 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=\columnwidth]{candidate-mentions}  
-  \caption{Most frequently mentioned candidate in stories
-    \label{fig:most-freq-candid}}
-\end{figure} 
+% \begin{figure}[t!]  
+% \centering 
+%   \includegraphics[width=0.8\columnwidth]{candidate-mentions}  
+%   \caption{Most frequently mentioned candidate in stories
+%     \label{fig:most-freq-candid}}
+% \end{figure} 
 
 
 Examining the top 10 most shared stories, Donald Trump is by far the most ``tweetable'' candidate, dominating the list with 7 out of 10 stories featuring his name in the title. Coding each story by the most frequently mentioned candidate mentioned in the body of the text, Trump has nearly three times as much coverage at nearly 60\% as the runner-ups, Ted Cruz and Hillary Clinton. The large number of stories with Cruz as the most-mentioned candidate are likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring. 
 
 \section{Measuring Political and Emotional Engagement}
-
-In the following sections, we discuss the tools and methods that we use to analyze our independent variables.
 
 \subsection{Emotional Coding}
 For the emotional coding of news articles, we use dictionaries from the Harvard General Inquirer, a lexicon that is popular for computerized content analysis \cite{stone1963computer}. In Berger and Milkman's study of online virality, automated coding using the LIWC system showed results that were significantly positively correlated with the output of manual coding \cite{berger2012makes}. The Inquirer is a public-use alternative to the LIWC system. 
@@ -184,34 +201,88 @@ Previous studies find that users on Twitter tend to show network homophily withi
 
 For general levels of political engagement, we look at the number of political candidates a Twitter user follows as a proxy for how likely they are to share political news. For single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=\columnwidth]{users-by-candid}  
-  \caption{Number of Tweets by Each Segment
-    \label{fig:users-by-candid}}
-\end{figure} 
+% \begin{figure}[t]
+%     \centering
+%     \begin{subfigure}{0.8\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={12mm 6mm 24mm 10mm}, clip]{daily_activity_old}
+%         \includegraphics[width=\textwidth]{users-by-candid} 
+%     \end{subfigure}
+%     ~
+%     \begin{subfigure}{0.8\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={3mm 0mm 2mm 2mm}, clip]{weekly_activity}
+%         \includegraphics[width=\textwidth]{tweets-by-candid}  
+%     \end{subfigure}
+%     \caption{Daily (A) and weekly (B) activity patterns on Yak Yak (green) and Twitter (blue).}    
+%     \label{fig:temporal-activity-patterns}
+% \end{figure}
+
 
 \begin{figure}[t!]  
 \centering 
-  \includegraphics[width=\columnwidth]{tweets-by-candid}  
+  \includegraphics[width=0.8\columnwidth]{users-by-candid}  
+%   \caption{Number of Tweets by Each Segment
+%     \label{fig:users-by-candid}}
+% \end{figure} 
+
+% \begin{figure}[t!]  
+% \centering 
+  \includegraphics[width=0.8\columnwidth]{tweets-by-candid}  
   \caption{Number of tweets by candidate group
     \label{fig:tweets-by-candid}}
 \end{figure} 
 
-
 \subsubsection{Candidate Followership}
-Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). Trump's free media advantage becomes clear when looking at the \emph{volume} of tweets each group of users tweet: 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:users-tweets-by-candid}).
+Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). Trump's free media advantage becomes clear when looking at the \emph{volume} of tweets each group of users tweet: 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
+
+
+% \begin{figure}[t]
+%     \centering
+%     \begin{subfigure}{0.5\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={12mm 3mm 10mm 2mm}, clip]{comments-per-port-dist}
+%         \includegraphics[width=\textwidth]{clinton-camp-shares}
+%     \end{subfigure}%
+%     ~
+%     \begin{subfigure}{0.5\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={3mm 4mm 15mm 13mm}, clip]{yy-post-rating-dist}
+%         \includegraphics[width=\textwidth]{trump-camp-shares}  
+%     \end{subfigure}
+%     ~
+%     \begin{subfigure}{0.5\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={3mm 4mm 15mm 13mm}, clip]{figures/yy-comments-rating-dist}
+%         \includegraphics[width=\textwidth]{sanders-camp-shares}  
+%     \end{subfigure}%
+%      ~
+%     \begin{subfigure}{0.5\linewidth}
+%         \centering
+%         %\includegraphics[width=\textwidth, trim={3mm 4mm 15mm 13mm}, clip]{figures/yy-comments-rating-dist}
+%         \includegraphics[width=\textwidth]{cruz-camp-shares}  
+%     \end{subfigure}%
+%     \caption{Yik Yak. (A) Distribution of number of replies per post. (B) Distribution of ratings (number of upvotes/down-votes) of posts. (C) Distribution of ratings of post replies.}
+%     \label{fig:yy-dist-replies-ratings}
+% \end{figure}
 
 %% Most popular mentioned candidate by ea. camp
+% \begin{figure}[htbp!] 
+% \centering 
+%  \includegraphics[width=0.8\columnwidth]{clinton-camp-shares}
+%  \includegraphics[width=0.8\columnwidth]{trump-camp-shares}  
+%  \includegraphics[width=0.8\columnwidth]{sanders-camp-shares}  
+%  \includegraphics[width=0.8\columnwidth]{cruz-camp-shares}  
+%   %\includegraphics[width=0.32\columnwidth]{location_study2} 
+%   \caption{Most frequently mentioned candidate in stories, by group
+%     \label{fig:users-tweets-by-candid}}
+% \end{figure}
+
 \begin{figure}[htbp!] 
 \centering 
- \includegraphics[width=0.9\columnwidth]{clinton-camp-shares}
- \includegraphics[width=0.9\columnwidth]{trump-camp-shares}  
- \includegraphics[width=0.9\columnwidth]{sanders-camp-shares}  
- \includegraphics[width=0.9\columnwidth]{cruz-camp-shares}  
-  %\includegraphics[width=0.32\columnwidth]{location_study2} 
+ \includegraphics[width=1.0\columnwidth]{who-shares-stories-about}  
   \caption{Most frequently mentioned candidate in stories, by group
-    \label{fig:users-tweets-by-candid}}
+    \label{fig:who-shares-stories-about}}
 \end{figure}
  
 \subsection{Political Engagement}
@@ -225,15 +296,15 @@ Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only fol
 
 \begin{figure}[t!]  
 \centering 
-  \includegraphics[width=1.0\columnwidth]{users-vs-engagement}  
-  \caption{Number of users by level of political engagement
-    \label{fig:users-vs-engagement}}
-\end{figure}
+  \includegraphics[width=0.8\columnwidth]{users-vs-engagement}  
+%   \caption{Number of users by level of political engagement
+%     \label{fig:users-vs-engagement}}
+% \end{figure}
 
 
-\begin{figure}[t!]  
-\centering 
-  \includegraphics[width=1.0\columnwidth]{tweet-ratio-vs-engagement}  
+% \begin{figure}[t!]  
+% \centering 
+  \includegraphics[width=0.8\columnwidth]{tweet-ratio-vs-engagement}  
   \caption{Tweets per user by level of political engagement
     \label{fig:tweet-ratio-engagement}}
 \end{figure}
@@ -341,9 +412,7 @@ These results are aligned with our expectations of the limitations of the attent
 However, there are small but significant differences in the number of political candidates a user followed and the length of the stories that were likely to be shared. Although the unaffiliated (and the general population of tweeters) tend to prefer short stories, both the loyal and political aficionados prefer longer stories. This suggests a deeper level of engagement with political content versus the general population, which might have a more impulsive mechanism for sharing articles, leaving room for future research.
 
 \section{Limitations and Future Work}  
-The 2016 elections were an unusual time period for both traditional and social media. Twitter users on all sides of the political spectrum focused on Donald Trump, which may have limited findings. Futhermore, our dataset was limited to a small but diverse set of publications. 
-
-Potential ways to create a more complete dataset include: Expanding the set of publications tracked, using machine learning methods to match tweets with stories, applying a more nuanced analysis of the story text, and including additional signals in the Twitter user data, such as the inferred political leaning of the person and the interaction between that leaning and the content shared. Still, our analysis provides a first view of article sharing on Twitter in a unique and eventful election year with large responses on social media.
+The 2016 elections were an unusual time period for both traditional and social media. Twitter users on all sides of the political spectrum focused on Donald Trump, which may have limited findings. Futhermore, our dataset was limited to a small but diverse set of publications. Potential ways to create a more complete dataset include: Expanding the set of publications tracked, using machine learning methods to match tweets with stories, applying a more nuanced analysis of the story text, and including additional signals in the Twitter user data, such as the inferred political leaning of the person and the interaction between that leaning and the content shared. Still, our analysis provides a first view of article sharing on Twitter in a unique and eventful election year with large responses on social media.
 
 \bibliography{nasty-brutish-short-poster}
 \bibliographystyle{aaai} 
