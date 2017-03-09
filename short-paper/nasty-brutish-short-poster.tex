@@ -48,24 +48,11 @@ During the 2016 U.S. presidential elections, Twitter served as an important plat
 
  
 \section{Introduction}
-In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. All of these tweets can have a big impact on the outcome of political processes: since President Barack Obama's winning presidential bid in 2008, social media has been recognized as an important tool in political campaigning \cite{cogburn2011networked}. % MAKE IT STRONGER LINE ABOUT THE IMPACT OF SOCIAL MEDIA?
+In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. All of these tweets lead to an impact on the outcome of political processes: since President Barack Obama's winning presidential bid in 2008, social media has been recognized as an important tool in political campaigning \cite{cogburn2011networked}. % MAKE IT STRONGER LINE ABOUT THE IMPACT OF SOCIAL MEDIA?
  
 % In 2008, President Barack Obama's winning campaign was largely attributed to the success of his social media strategy, the first example of its kind. By establishing an online presence that recruited more than 3 million individual contributors and 5 million volunteers, Obama was able to create a grassroots political movement \cite{cogburn2011networked}. Publicity and public sound bites matter-- especially when it’s free and has the potential to go viral.
-
-% Although social media messages are less able to be carefully controlled in comparison to paid advertisements, they also have the potential to reach a wider audience. Reactions to an article shared by one potential voter now have the ability to be broadcast and spread to millions of others in a real-time, public sphere. 
-
-%Measuring the way that stories grow and spread has become an important part of the equation to understanding public discourse.
-
-%\subsection{From Reader to Relayer}
-The popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, each reader now has the powerful potential to broadcast stories to his or her own audience. Yet previous work, including Berger and Milkman's study on what makes the New York Times' ``most emailed list'' and Hansen et. al.'s research on sentiment and news-sharing, show that the impulse to share content is often predictably emotional in nature \cite{berger2012makes, hansen2011good}. In short, the desire to share a certain story is often universally impulsive, regardless of context. In the case of political news, this impulse can have a large impact on reach of political messages -- an impact that is not always equally distributed. 
   
-% In a 2011 study of the New York Time’s ``most emailed list'', Berger and Milkman found that the potential for a news story to go viral is partially driven by physiological arousal, defined as ``an excitatory state of sensory alertness, mobilization, or energy'' \cite{berger2012makes}. In short, the desire to share a certain story is often universally impulsive, regardless of context. Yet in the case of political news, this impulse can have a large impact on reach of political messages, an impact that is not always equally distributed. 
-
-
-% During the 2016 election year, the New York Times published an article estimating a 2 billion-dollar advantage in free media, including social media, for Donald Trump, all of which has no small impact on the messages broadcast to voters \cite{nyt-trump-free-media}.
-
-%\footnote{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
- 
+The popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, each reader now has the powerful potential to broadcast stories to his or her own audience. Yet previous work, including Berger and Milkman's study on what makes the New York Times' ``most emailed list'' and Hansen et. al.'s research on sentiment and news-sharing, show that the impulse to share content is often predictably emotional in nature \cite{berger2012makes, hansen2011good}. In short, the desire to share a certain story is often universally impulsive, regardless of context. In the case of political news, this impulse can have a large impact on reach of political messages -- an impact that is not always equally distributed. 
 
  \subsection{Hypotheses}
 % With the important role of social media in politics and the often emotionally charged nature of content-sharing in mind, 
@@ -88,7 +75,7 @@ For each of these three independent variables (story length, emotionality, posit
 
 \section{Literature Review}  
 
-For several decades, there has been an assumption that the kind of emotion a story evokes has a significant impact on the likelihood for it to be well-received. Yet defining that connection, and quantifying the type of emotion that matters, remains open-ended.
+For several decades, there has been an assumption that the kind of emotion a story evokes has a significant impact on the likelihood for it to be well-received. Yet defining that connection, and quantifying the type of emotion that matters, remains to be explored.
 
 In Galtung and Ruge's seminal work on news values, negativity is proposed as a positive attribute for news stories. In other words, ``bad news is more newsworthy than good news'' \cite{galtung1965structure}. However, more recently, Berger and Milkman's study found that positive content was more likely to make the New York Times most-emailed list than negative content \cite{berger2012makes}. The results of Hansen et. al’s research, which focuses on Twitter, counters that finding, showing that negativity is a boon in news stories’ popularity -- yet positivity is more likely to lead retweets overall \cite{hansen2011good}.
 
@@ -97,34 +84,20 @@ Political news, however, is a unique category of news, and this past election --
 To compare the sharing of election news stories on Twitter versus patterns of general virality in the news, we calculate the negativity of stories, and how that relates to popularity. We also examine the effects of the degree of combined emotionality in the content. In Berger and Milkman's study, both highly positive and highly negative content were more likely to become viral than stories of low emotional valence, and we expect the same to hold for political news \cite{berger2012makes}. 
 
 Finally, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox -- between the ease of accessibility to information and the increasingly limited bandwidth of consumers -- is described as one of the challenges of being in an attention economy \cite{goldhaber1997attention}. High-impact events like the presidential elections intensify this effect -- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 (Gottfried 2016). To explore the effects of the attention economy on the reading of political news, we examine story length and how it relates to sharing popularity.
-
-
  
-\section{Data Collection}
- Our main dataset is a connected corpus of news articles about the presidential elections and the tweets that share them from January 1, 2016 to May 1, 2016 over 13 news outlets.  
+\section{Data Collection} 
 
 \subsection{News Dataset}
+For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications: CNN, Fox News, the New York Times, The Wall Street Journal, The Washington Post, The Los Angeles Times, The Associated Press, Reuters, McClatchy, Politico, Buzzfeed, The Huffington Post, and NPR.
 
- For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications: CNN, Fox News, the New York Times, The Wall Street Journal, The Washington Post, The Los Angeles Times, The Associated Press, Reuters, McClatchy, Politico, Buzzfeed, The Huffington Post, and NPR.
-
-To capture a variety of election stories and target audiences, we include sources that:
-
-\begin{itemize}
-\item Have mostly conservative audiences or mostly liberal audiences, based on a 2014 survey \cite{PoliticalPolarization}
-\item Come from mixed primary media formats (television, paper, online, radio)
-\item Are viewed as ``legacy'' (over a hundred years old) or ``new'' media (founded online within the last 10 years)
-\item Focus solely on political news (Politico, McClatchy)
-\item Are newswire services (the Associated Press, Reuters news)
-\end{itemize}
+To create a diverse set of election stories, we include sources that have mostly conservative audiences or mostly liberal audiences (based on a 2014 survey); come from mixed primary media formats (television, paper, online, radio); are viewed as ``legacy'' (over a hundred years old) or ``new'' media (founded online within the last 10 years); focus solely on political news (Politico, McClatchy); and are newswire services (the Associated Press, Reuters news) \cite{PoliticalPolarization}. 
   
- We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
+We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
 
 Articles are processed in a 3-step pipeline. After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML. The story text is then passed into a binary MaxEnt classifier for election news. The classifier, which was built for prior research, uses Bag-of-word features, is trained on a balanced dataset of 1,000 manually labeled news articles, and performs with a F-score of 0.90 \cite{vijayaraghavan-thesis}. 
 
 \subsection{Tweets Dataset}
-We start with the firehose of all tweets between January 1, 2016 and May 1, 2016 in our data process. 
-
-Tweets pass through a similiar pipeline as news stories. First, we sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vvr_electome2016}. We then filter by those that share a link (which might potentially be a news story). 
+We start with the firehose of all tweets between January 1, 2016 and May 1, 2016 in our data process. Tweets pass through a similiar pipeline as news stories. First, we sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vvr_electome2016}. We then filter by those that share a link (which might potentially be a news story). 
 
 We collect and sort a total of 16,667,685 tweets as election-related and containing at least one URL in the text, an average of 4,000,000 per month and 140,000 per day.
 
@@ -233,7 +206,7 @@ For general levels of political engagement, we look at the number of political c
 \end{figure} 
 
 \subsubsection{Candidate Followership}
-Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). Trump's free media advantage becomes clear when looking at the \emph{volume} of tweets each group of users tweet: 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
+Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
 
 
 % \begin{figure}[t]
@@ -406,7 +379,7 @@ For the general population of election tweeters, we find that:
     \item Stories that are less positive are more likely to be shared on Twitter (\textbf{H3})
 \end{itemize}
 
-These results are aligned with our expectations of the limitations of the attention economy, the emotional nature of content virality, and the idea that ``bad news is more newsworthy than good news'', confirming Galtung and Ruge's classical theory, along with Hansen et. al.'s more recent work cite{galtung1965structure,hansen2011good}.
+These results are aligned with our expectations of the limitations of the attention economy, the emotional nature of content virality, and the idea that ``bad news is more newsworthy than good news'', confirming Galtung and Ruge's classical theory, along with Hansen et. al.'s more recent work \cite{galtung1965structure,hansen2011good}.
 
 However, there are small but significant differences in the number of political candidates a user followed and the length of the stories that were likely to be shared. Although the unaffiliated (and the general population of tweeters) tend to prefer short stories, both the loyal and political aficionados prefer longer stories. This suggests a deeper level of engagement with political content versus the general population, which might have a more impulsive mechanism for sharing articles, leaving room for future research.
 
