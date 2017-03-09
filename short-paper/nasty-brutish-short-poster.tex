@@ -113,31 +113,25 @@ Story sharing behavior follows an approximate power law distribution. On average
 
 \begin{figure}[t!]
 \centering 
-  \includegraphics[width=0.8\columnwidth]{story-share-dist}   
-  \includegraphics[width=0.8\columnwidth]{top-10-stories} 
-  \includegraphics[width=0.8\columnwidth]{all-stories-by-pub} 
-  \includegraphics[width=0.8\columnwidth]{candidate-mentions}  
-  \caption{Number of story shares by publication
-    \label{fig:shares-by-pub}}
+  \includegraphics[width=\linewidth]{story-stats-horizontal}  
+  \includegraphics[width=\linewidth]{top-10-stories}    
+  \caption{SXXXXXFSFDFDies
+    \label{fig:story-stats}}
 \end{figure} 
 
 % \begin{figure}[t!]
 % \centering 
-%   \includegraphics[width=0.8\columnwidth]{story-share-dist}  
-%   \caption{Distribution of Story Shares
-%     \label{fig:story-share-dist}}
-% \end{figure} 
-
-
-% \begin{figure}[t!]  
-% \centering 
-%   \includegraphics[width=0.8\columnwidth]{all-stories-by-pub}  
+%   \includegraphics[width=0.8\columnwidth]{story-share-dist}   
+%   \includegraphics[width=0.8\columnwidth]{top-10-stories} 
+%   \includegraphics[width=0.8\columnwidth]{all-stories-by-pub} 
+%   \includegraphics[width=0.8\columnwidth]{candidate-mentions}  
 %   \caption{Number of story shares by publication
 %     \label{fig:shares-by-pub}}
 % \end{figure} 
+ 
 
 
-CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (figure \ref{fig:shares-by-pub}).  
+CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (figure \ref{fig:story-stats}).  
 % Because our data pipeline detailed in the previous section looks for election-related news, outlets which focus on political news are more likely to show up in our results.
 %\newpage %force table to get on the next page
 
@@ -193,17 +187,25 @@ For general levels of political engagement, we look at the number of political c
 
 \begin{figure}[t!]  
 \centering 
-  \includegraphics[width=0.8\columnwidth]{users-by-candid}  
-%   \caption{Number of Tweets by Each Segment
-%     \label{fig:users-by-candid}}
-% \end{figure} 
+  \includegraphics[width=\columnwidth]{single-candid-charts}  
+   \caption{Twitter users who only follow one candidate and tweets by Twitter users who only follow one candidate
+     \label{fig:single-candid-stats}}
+\end{figure} 
+
 
 % \begin{figure}[t!]  
 % \centering 
-  \includegraphics[width=0.8\columnwidth]{tweets-by-candid}  
-  \caption{Number of tweets by candidate group
-    \label{fig:tweets-by-candid}}
-\end{figure} 
+%   \includegraphics[width=0.8\columnwidth]{users-by-candid}  
+% %   \caption{Number of Tweets by Each Segment
+% %     \label{fig:users-by-candid}}
+% % \end{figure} 
+
+% % \begin{figure}[t!]  
+% % \centering 
+%   \includegraphics[width=0.8\columnwidth]{tweets-by-candid}  
+%   \caption{Number of tweets by candidate group
+%     \label{fig:tweets-by-candid}}
+% \end{figure} 
 
 \subsubsection{Candidate Followership}
 Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
@@ -281,8 +283,7 @@ Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only fol
     \label{fig:tweet-ratio-engagement}}
 \end{figure}
 
-36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user (figure \ref{fig:tweet-ratio-engagement}).
-
+36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user (figure \ref{fig:tweet-ratio-engagement}), which may suggestlower volume but higher deliberation in users more engaged.
 
 In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
 
