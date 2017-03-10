@@ -11,8 +11,7 @@
 \usepackage{xcolor}
 \usepackage{subcaption}
 \usepackage{graphicx}
-\graphicspath{ {images/} } 
-\usepackage{breakcites}
+\graphicspath{ {images/} }  
 \frenchspacing
 \setlength{\pdfpagewidth}{8.5in}
 \setlength{\pdfpageheight}{11in}
@@ -46,7 +45,7 @@ During the 2016 U.S. presidential elections, Twitter served as an important plat
 \section{Introduction}
 In the changing landscape of both journalism and politics, social media is playing an increasingly large role in mobilizing and spreading information to citizens. A Pew Research survey from August 2015 showed that nearly two-thirds of adults in the U.S. who are on Twitter use the platform to get news \cite{pew-Twitter-news}. During an election year, the news on Twitter has the power to influence public opinion, which, in turn, impacts political outcomes.
 
-But the popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, each reader now has the powerful potential to broadcast stories to his or her own audience. Yet previous work, including Berger and Milkman's study on what makes the New York Times' ``most emailed list'' and Hansen et. al.'s research on sentiment and news-sharing, show that the impulse to share content is often predictably emotional in nature \cite{berger2012makes, hansen2011good}. In short, the desire to share a certain story is often universally impulsive, regardless of context. In the case of political news, this impulse can have a large impact on reach of political messages -- an impact that is not always equally distributed. 
+But the popularity of sharing articles on social media also marks an important shift in the role of the news consumer from armchair reader to information propagator. Whereas news used to be broadcast to the reader, each reader now has the powerful potential to broadcast stories to his or her own audience. Yet previous work, including Berger and Milkman's study on what makes the New York Times' ``most emailed list'' and Hansen et. al.'s research on sentiment and news-sharing, show that the impulse to share content is often predictably emotional in nature \cite{berger2012makes,hansen2011good}. In short, the desire to share a certain story is often universally impulsive, regardless of context. In the case of political news, this impulse can have a large impact on reach of political messages -- an impact that is not always equally distributed. 
 
  \subsection{Hypotheses}
 We ask the following question in our research: Does the emotional vocabulary of political news stories have an impact on its Twitter popularity that persists beyond political affiliation? To test this question, we focus on three key aspects of stories: length, emotionality, and positivity. We hypothesize:
@@ -58,20 +57,7 @@ We ask the following question in our research: Does the emotional vocabulary of 
 
 \end{itemize}
 
-Prior literature has shown there to be a link between following a political candidate and underlying political orientation, so we group users by candidates followed to look for differences in sharing behavior \cite{colleoni2014echo}. For each of these three independent variables we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement).
-
-% \section{Literature Review}  
-
-% For several decades, there has been an assumption that the kind of emotion a story evokes has a significant impact on the likelihood for it to be well-received. Yet defining that connection, and quantifying the type of emotion that matters, remains to be explored.
-
-% In Galtung and Ruge's seminal work on news values, negativity is proposed as a positive attribute for news stories. In other words, ``bad news is more newsworthy than good news'' \cite{galtung1965structure}. However, more recently, Berger and Milkman's study found that positive content was more likely to make the New York Times most-emailed list than negative content \cite{berger2012makes}. The results of Hansen et. al’s research, which focuses on Twitter, counters that finding, showing that negativity is a boon in news stories’ popularity -- yet positivity is more likely to lead retweets overall \cite{hansen2011good}.
-
-% Political news, however, is a unique category of news, and this past election -- where one-in-four Americans report disliking the presidential candidates -- appears to have a negative overtone \cite{dislike-candidates}. In a study of responses to the 2012 election campaign on Twitter, it was found that for both candidates, the majority of tweets were far more negative in tone than positive \cite{mitchell2013twitter}.
-    
-% To compare the sharing of election news stories on Twitter versus patterns of general virality in the news, we calculate the negativity of stories, and how that relates to popularity. We also examine the effects of the degree of combined emotionality in the content. In Berger and Milkman's study, both highly positive and highly negative content were more likely to become viral than stories of low emotional valence, and we expect the same to hold for political news \cite{berger2012makes}. 
-
-% Finally, the abundance of information on the web has created new challenges and questions about the kind of content being processed by readers. This paradox -- between the ease of accessibility to information and the increasingly limited bandwidth of consumers -- is described as one of the challenges of being in an attention economy \cite{goldhaber1997attention}. High-impact events like the presidential elections intensify this effect -- about 60 \% of Americans reported feeling exhausted by media coverage of the elections in July of 2016 (Gottfried 2016). To explore the effects of the attention economy on the reading of political news, we examine story length and how it relates to sharing popularity.
- 
+Prior literature has shown there to be a link between following a political candidate and underlying political orientation, so we group users by candidates followed to look for differences in sharing behavior \cite{colleoni2014echo}. For each of these three independent variables we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement). 
 \section{Data Collection} 
 
 \subsection{News Dataset}
@@ -93,9 +79,8 @@ Story sharing behavior follows an approximate power law distribution. On average
 
 \begin{figure}[t!]
 \centering 
-  \includegraphics[width=\linewidth]{story-stats}  
-  %\includegraphics[width=\linewidth]{top-10-stories}    
-  \caption{Popularity of stories, candidates in stories
+  \includegraphics[width=\linewidth]{story-stats}   
+    \caption{Popularity of stories, candidates in stories
     \label{fig:story-stats}}
 \end{figure}  
 
@@ -120,7 +105,7 @@ Our dataset contains 6,406 unique single-candidate Twitter users. At the time of
 
 \begin{figure}[t!] 
 \centering 
- \includegraphics[width=1.0\columnwidth]{who-shares-what-medium}  
+ \includegraphics[width=1.0\columnwidth]{who-shares-what}  
   \caption{Stories shared by followers of one candidate 
     \label{fig:who-shares-what}}
 \end{figure}
