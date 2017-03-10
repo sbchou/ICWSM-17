@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,26 +296,21 @@ File: images/top-10-stories.png Graphic file (type png)
 <use images/top-10-stories.png>
 Package pdftex.def Info: images/top-10-stories.png used on input line 106.
 (pdftex.def)             Requested size: 239.39438pt x 92.13696pt.
-
-Underfull \hbox (badness 1142) in paragraph at lines 115--116
-\OT1/ptm/m/n/10 tions, a set of 1,915 well-established words sig-ni-fy-ing
- []
-
-[2 <./images/story-stats-horizontal.png> <./images/top-10-stories.png>]
+ [2 <./images/story-stats-horizontal.png> <./images/top-10-stories.png>]
 <images/single-candid-charts.png, id=22, 454.69875pt x 193.72375pt>
 File: images/single-candid-charts.png Graphic file (type png)
 
 <use images/single-candid-charts.png>
-Package pdftex.def Info: images/single-candid-charts.png used on input line 124
+Package pdftex.def Info: images/single-candid-charts.png used on input line 122
 .
 (pdftex.def)             Requested size: 239.39438pt x 101.99321pt.
 
 
 LaTeX Warning: Reference `fig:who-shares-stories-about' on page 3 undefined on 
-input line 130.
+input line 128.
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 130--131
+Underfull \hbox (badness 4036) in paragraph at lines 128--129
  \OT1/ptm/b/n/10 Can-di-date Fol-low-er-ship \OT1/ptm/m/n/10 Our dataset con-ta
 ins 6,406
  []
@@ -325,7 +320,7 @@ File: images/who-shares-what-medium.png Graphic file (type png)
 
 <use images/who-shares-what-medium.png>
 Package pdftex.def Info: images/who-shares-what-medium.png used on input line 1
-35.
+37.
 (pdftex.def)             Requested size: 239.39438pt x 135.89494pt.
 
 <images/levels-of-engagement-charts.png, id=24, 801.99625pt x 344.28625pt>
@@ -333,50 +328,51 @@ File: images/levels-of-engagement-charts.png Graphic file (type png)
 
 <use images/levels-of-engagement-charts.png>
 Package pdftex.def Info: images/levels-of-engagement-charts.png used on input l
-ine 136.
+ine 138.
 (pdftex.def)             Requested size: 239.39438pt x 102.76659pt.
-
-
-LaTeX Warning: Reference `fig:tweet-ratio-engagement' on page 3 undefined on in
-put line 141.
-
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[3 <./images/single-candid-charts.png> <./images/who-shares-what-medium.png> <.
-/images/levels-of-engagement-charts.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
+ [3 <./images/single-candid-charts.png> <./images/who-shares-what-medium.png> <
+./images/levels-of-engagement-charts.png>]
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [4] (./nasty-brutish-short-poster.bbl
+
+(./nasty-brutish-short-poster.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
+) [4]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 1052) in paragraph at lines 106--110
+Underfull \hbox (badness 1052) in paragraph at lines 86--90
 []\OT1/ptm/m/n/10 Vijayaraghavan, P.; Vosoughi, S.; and Roy, D.  2016.
  []
 
-) [5] (./nasty-brutish-short-poster.aux)
+) [5
+
+] (./nasty-brutish-short-poster.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3474 strings out of 493089
- 53547 string characters out of 6134842
- 121680 words of memory out of 5000000
- 6908 multiletter control sequences out of 15000+600000
+ 3470 strings out of 493089
+ 53464 string characters out of 6134842
+ 120595 words of memory out of 5000000
+ 6904 multiletter control sequences out of 15000+600000
  17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,40p,1357b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,40p,1357b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
@@ -389,7 +385,7 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on nasty-brutish-short-poster.pdf (5 pages, 537021 bytes).
+Output written on nasty-brutish-short-poster.pdf (5 pages, 534911 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

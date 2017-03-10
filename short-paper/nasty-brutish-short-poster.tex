@@ -98,7 +98,7 @@ We start with the firehose of all tweets between January 1, 2016 and May 1, 2016
 To connect articles with tweets, we first expand all links in tweets from ``t.co'' format (16.6 million), then use regular expressions to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). We eliminated any stories that were shared by less than 10 tweets to remove obscure articles. This left a total of 2,650 distinct articles shared in 123,113 tweets by 20,956 Twitter users.
 
 \subsubsection{Descriptive Findings}
-Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times. CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (figure \ref{fig:story-stats}). Donald Trump is by far the most ``tweetable'' candidate, dominating the top 10 most-shared list with 7 out of 10 stories featuring his name in the title. Coding each story by the candidate's name that appears the most, Trump has nearly three times as many featured stories compared to runner-ups, Ted Cruz and Hillary Clinton. High coverage of Cruz in stories is likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
+Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times. CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (see figure \ref{fig:story-stats}). Donald Trump is by far the most ``tweetable'' candidate, dominating the top 10 most-shared list with 7 out of 10 stories featuring his name in the title. Coding each story by the candidate's name that appears the most, Trump has nearly three times as many featured stories compared to runner-ups, Ted Cruz and Hillary Clinton. High coverage of Cruz in stories is likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
 
 \begin{figure}[t!]
 \centering 
@@ -110,9 +110,7 @@ Story sharing behavior follows an approximate power law distribution. On average
 
 \section{Political and Emotional Metrics}
 \subsection{Emotional Coding}
-For the emotional coding of news articles, we use dictionaries from the Harvard General Inquirer, a lexicon that is popular for computerized content analysis \cite{stone1963computer}. In Berger and Milkman's study of online virality, automated coding using the LIWC system showed results that were significantly positively correlated with the output of manual coding \cite{berger2012makes}. The Inquirer is a public-use alternative to the LIWC system.
-
-In particular, we use the \emph{Positiv} and \emph{Negativ} collections, a set of 1,915 well-established words signifying positive outlook (not including words for \emph{yes}) and 2,291 words signifying negative outlook (not including words for \emph{no}), respectively. Repeating the same metrics from Berger and Milkman's study, we calculate emotionality as $\frac{count(positiv \mid negativ)}{count(words)}$ and positivity as $\frac{count(positiv)}{count(words)} - \frac{count(negativ)}{count(words)}$.
+For the emotional coding of news articles, we use dictionaries from the Harvard General Inquirer, a lexicon that is popular for computerized content analysis \cite{stone1963computer}. In Berger and Milkman's study of online virality, automated coding using the LIWC system showed results that were significantly positively correlated with the output of manual coding \cite{berger2012makes}. The Inquirer is a public-use alternative to the LIWC system. In particular, we look at the \emph{Positiv} and \emph{Negativ} collections, a set of 1,915 well-established words signifying positive outlook and 2,291 words signifying negative outlook, respectively. Repeating the same metrics from Berger and Milkman's study, we calculate emotionality as $\frac{count(positiv \mid negativ)}{count(words)}$ and positivity as $\frac{count(positiv)}{count(words)} - \frac{count(negativ)}{count(words)}$.
 
  \subsection{Followership as a Proxy for Political Engagement}
 Previous studies find that users on Twitter tend to show network homophily within political groups, or that ``like follows like''. In addition, followership of only Democratic or only Republican official accounts can be used as a reasonable estimator of party loyalty. Those accounts that follow only the officials of one party tend to demonstrate more closeness with other users in their political party than those who do not \cite{colleoni2014echo}. Due to the highly individualized nature of the 2016 elections, candidate loyalty did not necessarily imply goodwill towards the party. As a result, look specifically at what candidates users follow. 
@@ -127,9 +125,13 @@ For general levels of political engagement, we look at the number of political c
 \end{figure} 
 
 \subsubsection{Candidate Followership}
-Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. We also observe the nature of the content being shared by each group. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
+Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only followers lead with about 31\%, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:who-shares-stories-about}).
  
-\subsection{Political Engagement}
+\subsection{Political Engagement}  
+36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user, which may suggest lower volume but higher deliberation in users more engaged (see figure \ref{fig:levels-of-engagement-charts}).
+
+In the following analyses, we segment levels of political engagement into three categories: \textbf{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news), \textbf{the loyal} (those who follow one and only one presidential candidate, and tweet about political news), and \textbf{the political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news). Most users fall into the unaffiliated category (see figure \ref{fig:levels-of-engagement-charts}).
+
 \begin{figure}[t!] 
 \centering 
  \includegraphics[width=1.0\columnwidth]{who-shares-what-medium}  
@@ -137,20 +139,11 @@ Our dataset contains 6,406 unique single-candidate Twitter users. Trump-only fol
   \caption{Tweets per user by level of political engagement
     \label{fig:levels-of-engagement-charts}}
 \end{figure}
- 
-36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user (figure \ref{fig:tweet-ratio-engagement}), which may suggestlower volume but higher deliberation in users more engaged.
 
-In the following analyses, we segment levels of political engagement into three extremes: \textbf{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news), \textbf{the loyal} (those who follow one and only one presidential candidate, and tweet about political news), and \textbf{the political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news). 
-
-\section{Analysis} 
-For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement), to look for differences amongst different populations of political tweeters.
-
-
+\section{Analysis}  
 \subsection{Methodology}
-Since our dependent variable, tweet volume, is a set of discrete counts that are positively truncated, we use negative binomial regression models for our analysis \cite{scott1997regression}. The distribution of tweet volume is not a normal distribution, and it is not recommended to perform a log transformation on count data to fit it to an OLS regression unless there is little dispersion in the data \cite{o2010not}. Poisson models are a subset of negative binomial models without the dispersion parameter. In our analyses, we see that the negative binomial model provides the best fit and that our data is overdispersed, as the dispersion parameter $\theta$ is greater than 1.   
-In addition, we apply a log transformation on the independent variable of story length, as its distribution follows an approximate power law. Both emotionality and positivity are more normally distributed so we do not transform the data.
-In each case, we compare our findings to those using linear and Poisson regression models, and are able to achieve the same significant results. 
-
+Since our dependent variable, tweet volume, is a set of discrete counts that is positively truncated but overdispersed ($\theta > 1$), we use negative binomial regression models for our analysis, rather than applying a log transformation on the data and fitting it to an OLS regression \cite{scott1997regression, o2010not}. We apply a log transformation on the independent variable of story length, as its distribution follows an approximate power law. Both emotionality and positivity are more normally distributed so we do not transform the data. In each case, we compare our findings to those using linear and Poisson regression models, and are able to achieve the same significant results. 
+ 
 \subsection{All Data}
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Thu, Dec 22, 2016 - 11:14:33
