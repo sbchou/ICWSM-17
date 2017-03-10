@@ -14,6 +14,14 @@ Berger, J., and Milkman, K.~L.
 \newblock What makes online content viral?
 \newblock {\em Journal of marketing research} 49(2):192--205.
 
+\bibitem[\protect\citeauthoryear{Colleoni, Rozza, and
+  Arvidsson}{2014}]{colleoni2014echo}
+Colleoni, E.; Rozza, A.; and Arvidsson, A.
+\newblock 2014.
+\newblock Echo chamber or public sphere? predicting political orientation and
+  measuring political homophily in twitter using big data.
+\newblock {\em Journal of Communication} 64(2):317--332.
+
 \bibitem[\protect\citeauthoryear{Galtung and Ruge}{1965}]{galtung1965structure}
 Galtung, J., and Ruge, M.~H.
 \newblock 1965.
@@ -42,12 +50,6 @@ Mitchell, A.; Gottfried, J.; Kiley, J.; and Matsa, K.~E.
 \newblock Political polarization \& media habits.
 \newblock {\em Pew Research Center}.
 \newblock (Accessed on 04/02/2016).
-
-\bibitem[\protect\citeauthoryear{O’hara and Kotze}{2010}]{o2010not}
-O’hara, R.~B., and Kotze, D.~J.
-\newblock 2010.
-\newblock Do not log-transform count data.
-\newblock {\em Methods in Ecology and Evolution} 1(2):118--122.
 
 \bibitem[\protect\citeauthoryear{Scott~Long}{1997}]{scott1997regression}
 Scott~Long, J.
