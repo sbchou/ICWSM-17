@@ -88,12 +88,12 @@ We start with the firehose of all tweets between January 1, 2016 and May 1, 2016
 To connect articles with tweets, we expand all links in tweets from ``t.co'' format (16.6 million), then use regular expressions to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st. There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960). We eliminated any stories that were shared by less than 10 tweets to remove obscure articles. This left a total of 2,650 distinct articles shared in 123,113 tweets by 20,956 Twitter users.
 
 \subsubsection{Descriptive Findings}
-Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times. CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset. This is likely due to the volume of and focus on political content for these outlets (see figure \ref{fig:story-stats}). Coding each story by the candidate's name that appears the most, Trump has nearly three times as many featured stories compared to runner-ups, Ted Cruz and Hillary Clinton. High coverage of Cruz in stories is likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
+Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times. CNN, Politico, and Fox have the highest number of stories shared by tweets in our dataset (fig. \ref{fig:story-stats}-A). This is likely due to the volume of and focus on political content for these outlets. Coding each story by the candidate's name that appears the most, Trump has nearly three times as many featured stories compared to runner-ups Ted Cruz and Hillary Clinton (see fig. \ref{fig:story-stats}-B). High coverage of Cruz in stories is likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
 %Donald Trump is by far the most ``tweetable'' candidate, dominating the top 10 most-shared list with 7 out of 10 stories featuring his name in the title. 
 
 \begin{figure}[t!]
 \centering 
-  \includegraphics[width=\linewidth]{story-stats-horizontal}  
+  \includegraphics[width=\linewidth]{story-stats}  
   %\includegraphics[width=\linewidth]{top-10-stories}    
   \caption{Popularity of stories, candidates in stories
     \label{fig:story-stats}}
@@ -104,30 +104,33 @@ Story sharing behavior follows an approximate power law distribution. On average
 For the emotional coding of news articles, we use dictionaries from the Harvard General Inquirer, a lexicon that is popular for computerized content analysis \cite{stone1963computer}. In Berger and Milkman's study of online virality, automated coding using the LIWC system showed results that were significantly positively correlated with the output of manual coding \cite{berger2012makes}. The Inquirer is a public-use alternative to the LIWC system. In particular, we look at the \emph{Positiv} and \emph{Negativ} collections, a set of 1,915 well-established words signifying positive outlook and 2,291 words signifying negative outlook. Repeating the same metrics from Berger and Milkman's study, we calculate emotionality as $\frac{count(positiv \mid negativ)}{count(words)}$ and positivity as $\frac{count(positiv)}{count(words)} - \frac{count(negativ)}{count(words)}$.
 
 \subsection{Political Engagement}  
-For general levels of political engagement, we look at the number of political candidates a Twitter user follows as a proxy for how likely they are to share political news. 36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates. We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user, which may suggest lower volume but higher deliberation in users more engaged (see figure \ref{fig:levels-of-engagement-charts}).
+For general levels of political engagement, we look at the number of political candidates a Twitter user follows as a proxy for how likely they are to share political news. 36\% of Twitter users in our dataset follow none of the four political candidates, followed by 31\% who follow one candidate, 20\% who follow two, and 13\% who follow three or more candidates (fig. \ref{fig:levels-of-engagement-charts-A}). We see a negative curvlinear relationship between the number of candidates followed (level of observed political engagement) and the ratio of political news tweets per user, which may suggest lower volume but higher deliberation in users more engaged (see fig. \ref{fig:levels-of-engagement-charts-B}).
 
 For our analyses, we segment levels of political engagement into three categories: \textbf{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news), \textbf{the loyal} (those who follow one and only one presidential candidate, and tweet about political news), and \textbf{the political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news).  
 
 \subsubsection{Candidate Followership}
-Our dataset contains 6,406 unique single-candidate Twitter users. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. Trump-only followers lead with about 31\% of all single-candidate users, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see figure \ref{fig:levels-of-engagement-charts}).
-
-%  \subsection{Followership as a Proxy for Political Engagement}
-% Previous studies find that users on Twitter tend to show network homophily within political groups, or that ``like follows like''. In addition, followership of only Democratic or only Republican official accounts can be used as a reasonable estimator of party loyalty. Those accounts that follow only the officials of one party tend to demonstrate more closeness with other users in their political party than those who do not \cite{colleoni2014echo}. Due to the highly individualized nature of the 2016 elections, we look specifically at what candidates users follow rather than grouping by party.  
-
+Our dataset contains 6,406 unique single-candidate Twitter users. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. Trump-only followers lead with about 31\% of all single-candidate users, followed closely by Clinton-only (29\%), then Sanders (25\%) and Cruz (14\%). 37\% of tweets sharing articles come from Trump-only followers versus 27\% for Clinton-only, 20\% for Sanders-only, and 14.6\% for Cruz. Again, across all four segments, Republican candidate Trump leads the top number of mentions in stories shared (see fig. \ref{fig:who-shares-what}).
+ 
 \begin{figure}[t!]  
 \centering 
   \includegraphics[width=\columnwidth]{single-candid-charts}  
-   \caption{Breakdown and tweet volume of single candidate followers
-     \label{fig:single-candid-stats}}
+   \caption{Single candidate followers
+     \label{fig:single-candid-charts}}
 \end{figure} 
- 
+
 \begin{figure}[t!] 
 \centering 
  \includegraphics[width=1.0\columnwidth]{who-shares-what-medium}  
-  \includegraphics[width=\columnwidth]{levels-of-engagement-charts}  
-  \caption{Stories shared by followers of one candidate, users by candidates followed, and levels of engagement
-    \label{fig:levels-of-engagement-charts}}
+  \caption{Stories shared by followers of one candidate 
+    \label{fig:who-shares-what}}
 \end{figure}
+
+\begin{figure}[t!] 
+\centering  
+  \includegraphics[width=\columnwidth]{levels-of-engagement-charts}  
+  \caption{Behavior by candidates followed
+    \label{fig:levels-of-engagement-charts}}
+\end{figure} 
 
 \section{Analysis}  
 \subsection{Methodology}
