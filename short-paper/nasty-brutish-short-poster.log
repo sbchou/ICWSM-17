@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,7 +304,7 @@ File: images/top-10-stories.png Graphic file (type png)
 Package pdftex.def Info: images/top-10-stories.png used on input line 117.
 (pdftex.def)             Requested size: 239.39438pt x 92.13696pt.
  [2]
-Underfull \hbox (badness 1142) in paragraph at lines 160--161
+Underfull \hbox (badness 1142) in paragraph at lines 129--130
 \OT1/ptm/m/n/10 tions, a set of 1,915 well-established words sig-ni-fy-ing
  []
 
@@ -312,16 +312,16 @@ Underfull \hbox (badness 1142) in paragraph at lines 160--161
 File: images/single-candid-charts.png Graphic file (type png)
 
 <use images/single-candid-charts.png>
-Package pdftex.def Info: images/single-candid-charts.png used on input line 190
+Package pdftex.def Info: images/single-candid-charts.png used on input line 138
 .
 (pdftex.def)             Requested size: 239.39438pt x 101.99321pt.
 
 
 LaTeX Warning: Reference `fig:who-shares-stories-about' on page 3 undefined on 
-input line 211.
+input line 144.
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 211--212
+Underfull \hbox (badness 4036) in paragraph at lines 144--145
  \OT1/ptm/b/n/10 Can-di-date Fol-low-er-ship \OT1/ptm/m/n/10 Our dataset con-ta
 ins 6,406
  []
@@ -330,8 +330,8 @@ ins 6,406
 File: images/who-shares-what-medium.png Graphic file (type png)
 
 <use images/who-shares-what-medium.png>
-Package pdftex.def Info: images/who-shares-what-medium.png used on input line 2
-60.
+Package pdftex.def Info: images/who-shares-what-medium.png used on input line 1
+49.
 (pdftex.def)             Requested size: 239.39438pt x 135.89494pt.
 
 <images/levels-of-engagement-charts.png, id=19, 579.16376pt x 265.99374pt>
@@ -339,12 +339,12 @@ File: images/levels-of-engagement-charts.png Graphic file (type png)
 
 <use images/levels-of-engagement-charts.png>
 Package pdftex.def Info: images/levels-of-engagement-charts.png used on input l
-ine 261.
+ine 150.
 (pdftex.def)             Requested size: 239.39438pt x 109.94699pt.
 
 
 LaTeX Warning: Reference `fig:tweet-ratio-engagement' on page 3 undefined on in
-put line 268.
+put line 155.
 
 [3 <./images/story-stats-horizontal.png> <./images/top-10-stories.png> <./image
 s/single-candid-charts.png>]
@@ -400,7 +400,7 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on nasty-brutish-short-poster.pdf (6 pages, 519308 bytes).
+Output written on nasty-brutish-short-poster.pdf (6 pages, 519293 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
