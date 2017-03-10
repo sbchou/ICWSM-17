@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 MAR 2017 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 MAR 2017 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,15 +284,6 @@ File: images/story-stats.png Graphic file (type png)
 Package pdftex.def Info: images/story-stats.png used on input line 96.
 (pdftex.def)             Requested size: 239.39438pt x 107.31363pt.
 
-
-LaTeX Warning: Reference `fig:levels-of-engagement-charts-A' on page 2 undefine
-d on input line 107.
-
-
-LaTeX Warning: Reference `fig:levels-of-engagement-charts-B' on page 2 undefine
-d on input line 107.
-
-
 Underfull \hbox (badness 4036) in paragraph at lines 112--113
  \OT1/ptm/b/n/10 Can-di-date Fol-low-er-ship \OT1/ptm/m/n/10 Our dataset con-ta
 ins 6,406
@@ -340,32 +331,28 @@ Underfull \hbox (badness 1052) in paragraph at lines 71--75
 []\OT1/ptm/m/n/10 Vijayaraghavan, P.; Vosoughi, S.; and Roy, D.  2016.
  []
 
-) [4] (./nasty-brutish-short-poster.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [4] (./nasty-brutish-short-poster.aux) ) 
 Here is how much of TeX's memory you used:
- 3465 strings out of 493089
- 53302 string characters out of 6134842
+ 3463 strings out of 493089
+ 53232 string characters out of 6134842
  118535 words of memory out of 5000000
- 6900 multiletter control sequences out of 15000+600000
+ 6898 multiletter control sequences out of 15000+600000
  17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,40p,1228b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on nasty-brutish-short-poster.pdf (4 pages, 320530 bytes).
+{/usr/local/texlive/2015/texmf-dist/f
+onts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nasty-brutish-short-poster.pdf (4 pages, 320499 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
