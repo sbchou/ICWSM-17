@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAR 2017 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,19 +170,19 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 (./breakcites.sty) (./nasty-brutish-short-poster.aux)
 \openout1 = `nasty-brutish-short-poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -252,28 +252,28 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 42.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
 
-Underfull \hbox (badness 1033) in paragraph at lines 74--75
+Underfull \hbox (badness 1033) in paragraph at lines 71--72
 []\OT1/ptm/m/n/10 For each of these three in-de-pen-dent vari-ables (story
  []
 
@@ -282,89 +282,80 @@ Underfull \hbox (badness 1033) in paragraph at lines 74--75
 
 
 ]
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-
 <images/story-stats-horizontal.png, id=11, 480.79625pt x 232.87pt>
 File: images/story-stats-horizontal.png Graphic file (type png)
 
 <use images/story-stats-horizontal.png>
 Package pdftex.def Info: images/story-stats-horizontal.png used on input line 1
-16.
+05.
 (pdftex.def)             Requested size: 239.39438pt x 115.95145pt.
 
 <images/top-10-stories.png, id=13, 584.1825pt x 224.84pt>
 File: images/top-10-stories.png Graphic file (type png)
 
 <use images/top-10-stories.png>
-Package pdftex.def Info: images/top-10-stories.png used on input line 117.
+Package pdftex.def Info: images/top-10-stories.png used on input line 106.
 (pdftex.def)             Requested size: 239.39438pt x 92.13696pt.
- [2]
-Underfull \hbox (badness 1142) in paragraph at lines 129--130
+
+Underfull \hbox (badness 1142) in paragraph at lines 115--116
 \OT1/ptm/m/n/10 tions, a set of 1,915 well-established words sig-ni-fy-ing
  []
 
-<images/single-candid-charts.png, id=17, 454.69875pt x 193.72375pt>
+[2 <./images/story-stats-horizontal.png> <./images/top-10-stories.png>]
+<images/single-candid-charts.png, id=22, 454.69875pt x 193.72375pt>
 File: images/single-candid-charts.png Graphic file (type png)
 
 <use images/single-candid-charts.png>
-Package pdftex.def Info: images/single-candid-charts.png used on input line 138
+Package pdftex.def Info: images/single-candid-charts.png used on input line 124
 .
 (pdftex.def)             Requested size: 239.39438pt x 101.99321pt.
 
 
 LaTeX Warning: Reference `fig:who-shares-stories-about' on page 3 undefined on 
-input line 144.
+input line 130.
 
 
-Underfull \hbox (badness 4036) in paragraph at lines 144--145
+Underfull \hbox (badness 4036) in paragraph at lines 130--131
  \OT1/ptm/b/n/10 Can-di-date Fol-low-er-ship \OT1/ptm/m/n/10 Our dataset con-ta
 ins 6,406
  []
 
-<images/who-shares-what-medium.png, id=18, 533.995pt x 303.1325pt>
+<images/who-shares-what-medium.png, id=23, 533.995pt x 303.1325pt>
 File: images/who-shares-what-medium.png Graphic file (type png)
 
 <use images/who-shares-what-medium.png>
 Package pdftex.def Info: images/who-shares-what-medium.png used on input line 1
-49.
+35.
 (pdftex.def)             Requested size: 239.39438pt x 135.89494pt.
 
-<images/levels-of-engagement-charts.png, id=19, 579.16376pt x 265.99374pt>
+<images/levels-of-engagement-charts.png, id=24, 801.99625pt x 344.28625pt>
 File: images/levels-of-engagement-charts.png Graphic file (type png)
 
 <use images/levels-of-engagement-charts.png>
 Package pdftex.def Info: images/levels-of-engagement-charts.png used on input l
-ine 150.
-(pdftex.def)             Requested size: 239.39438pt x 109.94699pt.
+ine 136.
+(pdftex.def)             Requested size: 239.39438pt x 102.76659pt.
 
 
 LaTeX Warning: Reference `fig:tweet-ratio-engagement' on page 3 undefined on in
-put line 155.
+put line 141.
 
-[3 <./images/story-stats-horizontal.png> <./images/top-10-stories.png> <./image
-s/single-candid-charts.png>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
+[3 <./images/single-candid-charts.png> <./images/who-shares-what-medium.png> <.
+/images/levels-of-engagement-charts.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [4 <./images/who-shares-what-medium.png> <./images/levels-of-engagement-charts
-.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no ˆ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- (./nasty-brutish-short-poster.bbl
+ [4] (./nasty-brutish-short-poster.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [5]
+)
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -373,9 +364,7 @@ Underfull \hbox (badness 1052) in paragraph at lines 106--110
 []\OT1/ptm/m/n/10 Vijayaraghavan, P.; Vosoughi, S.; and Roy, D.  2016.
  []
 
-) [6
-
-] (./nasty-brutish-short-poster.aux)
+) [5] (./nasty-brutish-short-poster.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -383,7 +372,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  3474 strings out of 493089
  53547 string characters out of 6134842
- 119680 words of memory out of 5000000
+ 121680 words of memory out of 5000000
  6908 multiletter control sequences out of 15000+600000
  17289 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -400,10 +389,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on nasty-brutish-short-poster.pdf (6 pages, 519293 bytes).
+Output written on nasty-brutish-short-poster.pdf (5 pages, 537021 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
